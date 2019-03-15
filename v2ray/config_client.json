@@ -1,0 +1,150 @@
+{
+    "log": {
+        "loglevel": "warning"
+    },
+    "inbounds": [{
+            "port": 53762,
+            "protocol": "dokodemo-door",
+            "settings": {
+                "network": "tcp,udp",
+                "followRedirect": true
+            },
+            "sniffing": {
+                "enabled": true,
+                "destOverride": ["http", "tls"]
+            }
+        },
+        {
+            "listen": "127.0.0.1",
+            "port": 1080,
+            "protocol": "socks",
+            "sniffing": {
+                "enabled": true,
+                "destOverride": ["http", "tls"]
+            },
+            "settings": {
+                "auth": "noauth",
+                "udp": true,
+                "ip": "127.0.0.1",
+                "clients": null
+            },
+            "streamSettings": null
+        }
+    ],
+    "outbounds": [{
+            "protocol": "vmess",
+            "settings": {
+                "vnext": [{
+                    "address": "v2ray-ip-address",
+                    "port": v2ray-port,
+                    "users": [{
+                        "id": "v2ray-id",
+                        "level": 1,
+                        "alterId": 100,
+                        "security": "aes-128-gcm"
+                    }]
+                }]
+            },
+            "streamSettings": {
+                "network": "kcp",
+                "security": "none",
+                "tlsSettings": {},
+                "tcpSettings": {},
+                "httpSettings": {},
+                "kcpSettings": {
+                    "mtu": 1350,
+                    "tti": 50,
+                    "uplinkCapacity": 100,
+                    "downlinkCapacity": 100,
+                    "congestion": false,
+                    "readBufferSize": 2,
+                    "writeBufferSize": 2,
+                    "header": {
+                        "type": "dtls"
+                    }
+                },
+                "wsSettings": {},
+                "quicSettings": {},
+                "sockopt": {
+                    "mark": 255
+                }
+            },
+            "mux": {
+                "enabled": true
+            }
+        },
+        {
+            "protocol": "freedom",
+            "settings": {},
+            "streamSettings": {
+                "sockopt": {
+                    "mark": 255
+                }
+            },
+            "tag": "direct"
+        },
+        {
+            "protocol": "blackhole",
+            "settings": {},
+            "streamSettings": {
+                "sockopt": {
+                    "mark": 255
+                }
+            },
+            "tag": "adblock"
+        }
+    ],
+    "dns": {
+        "hosts": {
+            "geosite:category-ads": "127.0.0.1"
+        },
+        "servers": [
+            "1.1.1.1",
+            "8.8.8.8",
+            "8.8.4.4",
+            {
+                "address": "114.114.114.114",
+                "port": 53,
+                "domains": ["geosite:cn"]
+            },
+            "localhost"
+        ]
+    },
+    "routing": {
+        "domainStrategy": "IPOnDemand",
+        "rules": [{
+                "type": "field",
+                "domain": ["geosite:cn"],
+                "outboundTag": "direct"
+            },
+            {
+                "type": "field",
+                "ip": [
+                    "geoip:cn",
+                    "geoip:private"
+                ],
+                "outboundTag": "direct"
+            },
+            {
+                "domain": [
+                    "tanx.com",
+                    "googeadsserving.cn",
+                    "baidu.com"
+                ],
+                "type": "field",
+                "outboundTag": "adblock"
+            },
+            {
+                "domain": [
+                    "amazon.com",
+                    "microsoft.com",
+                    "jd.com",
+                    "youku.com",
+                    "baidu.com"
+                ],
+                "type": "field",
+                "outboundTag": "direct"
+            }
+        ]
+    }
+}
