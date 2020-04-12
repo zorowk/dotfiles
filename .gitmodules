@@ -1,0 +1,6 @@
+[submodule "fontconfig"]
+	path = fontconfig
+	url = https://github.com/ohmyarch/fontconfig-zh-cn.git
+[submodule "mpv"]
+	path = mpv
+	url = https://github.com/Argon-/mpv-config.git

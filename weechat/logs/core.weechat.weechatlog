@@ -1,0 +1,374 @@
+2018-07-15 21:29:33	⚠ 	Warning: /home/zoro/.weechat/aspell.conf, line 7: unknown option for section "color": suggestions = default
+2018-07-15 21:29:33		New key binding (context "default"): meta-meta-OQ => /bar scroll buflist * e
+2018-07-15 21:29:33		New key binding (context "default"): meta-meta-OP => /bar scroll buflist * b
+2018-07-15 21:29:33		New key binding (context "default"): meta-OQ => /bar scroll buflist * +100%
+2018-07-15 21:29:33		New key binding (context "default"): meta-OP => /bar scroll buflist * -100%
+2018-07-15 21:29:33	⚠ 	Warning: /home/zoro/.weechat/irc.conf, line 28: unknown option for section "look": item_away_message = on
+2018-07-15 21:29:33	⚠ 	Warning: /home/zoro/.weechat/irc.conf, line 37: unknown option for section "look": nick_color_force = ""
+2018-07-15 21:29:33	⚠ 	Warning: /home/zoro/.weechat/irc.conf, line 38: unknown option for section "look": nick_color_hash = sum
+2018-07-15 21:29:33	⚠ 	Warning: /home/zoro/.weechat/irc.conf, line 39: unknown option for section "look": nick_color_stop_chars = "_|["
+2018-07-15 21:29:33	⚠ 	Warning: /home/zoro/.weechat/irc.conf, line 65: unknown option for section "color": item_away = yellow
+2018-07-15 21:29:33	⚠ 	Warning: /home/zoro/.weechat/irc.conf, line 80: unknown option for section "network": alternate_nick = on
+2018-07-15 21:29:33	⚠ 	Warning: /home/zoro/.weechat/irc.conf, line 118: unknown option for section "server_default": default_msg_kick = ""
+2018-07-15 21:29:33	⚠ 	Warning: /home/zoro/.weechat/irc.conf, line 119: unknown option for section "server_default": default_msg_part = "WeeChat %v"
+2018-07-15 21:29:33	⚠ 	Warning: /home/zoro/.weechat/irc.conf, line 120: unknown option for section "server_default": default_msg_quit = "WeeChat %v"
+2018-07-15 21:29:33	⚠ 	irc: error creating server option "frozenwaste.default_msg_kick"
+2018-07-15 21:29:33	⚠ 	Warning: /home/zoro/.weechat/irc.conf, line 173: invalid value for option: frozenwaste.default_msg_kick
+2018-07-15 21:29:33	⚠ 	irc: error creating server option "frozenwaste.default_msg_part"
+2018-07-15 21:29:33	⚠ 	Warning: /home/zoro/.weechat/irc.conf, line 174: invalid value for option: frozenwaste.default_msg_part
+2018-07-15 21:29:33	⚠ 	irc: error creating server option "frozenwaste.default_msg_quit"
+2018-07-15 21:29:33	⚠ 	Warning: /home/zoro/.weechat/irc.conf, line 175: invalid value for option: frozenwaste.default_msg_quit
+2018-07-15 21:29:33		URL server listening on ('127.0.1.1', 40785)
+2018-07-15 21:29:33		python scripts loaded: urlserver
+2018-07-15 21:29:33	⚠ 	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2018-07-15 21:29:33		perl scripts loaded: buffers, notify_send
+2018-07-15 21:29:33	⚠ 	Warning: /home/zoro/.weechat/script.conf, line 46: unknown option for section "scripts": dir = "%h/script"
+2018-07-15 21:29:33		script: 264 scripts for WeeChat 2.1
+2018-07-15 21:29:33		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2018-07-15 21:29:49		perl: scripts unloaded
+2018-07-15 21:29:49		fifo: pipe closed
+2018-07-15 21:30:29		URL server listening on ('127.0.1.1', 37775)
+2018-07-15 21:30:29		python scripts loaded: urlserver
+2018-07-15 21:30:29	⚠ 	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2018-07-15 21:30:29		perl scripts loaded: buffers, notify_send
+2018-07-15 21:30:29		script: 264 scripts for WeeChat 2.1
+2018-07-15 21:30:29		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2018-07-15 21:31:56		perl: scripts unloaded
+2018-07-15 21:31:56		fifo: pipe closed
+2018-07-15 21:32:31		URL server listening on ('127.0.1.1', 38445)
+2018-07-15 21:32:31		python scripts loaded: urlserver
+2018-07-15 21:32:31	⚠ 	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2018-07-15 21:32:31		perl scripts loaded: buffers, notify_send
+2018-07-15 21:32:31		script: 264 scripts for WeeChat 2.1
+2018-07-15 21:32:31		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2018-07-15 21:34:27		perl: scripts unloaded
+2018-07-15 21:34:27		fifo: pipe closed
+2018-07-16 20:37:15		URL server listening on ('127.0.1.1', 37681)
+2018-07-16 20:37:15		python scripts loaded: urlserver
+2018-07-16 20:37:15	⚠ 	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2018-07-16 20:37:15		perl scripts loaded: buffers, notify_send
+2018-07-16 20:37:15		script: downloading list of scripts...
+2018-07-16 20:37:15		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2018-07-16 20:37:19		script: 347 scripts for WeeChat 2.1
+2018-07-16 20:43:31		perl: scripts unloaded
+2018-07-16 20:43:31		fifo: pipe closed
+2018-07-16 20:43:46		URL server listening on ('127.0.1.1', 41533)
+2018-07-16 20:43:46		python scripts loaded: urlserver
+2018-07-16 20:43:46	⚠ 	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2018-07-16 20:43:46		perl scripts loaded: buffers, notify_send
+2018-07-16 20:43:46		script: 347 scripts for WeeChat 2.1
+2018-07-16 20:43:46		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2018-07-16 20:47:31		perl: scripts unloaded
+2018-07-16 20:47:31		fifo: pipe closed
+2018-07-16 21:51:47		URL server listening on ('127.0.1.1', 45473)
+2018-07-16 21:51:47		python scripts loaded: urlserver
+2018-07-16 21:51:47	⚠ 	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2018-07-16 21:51:47		perl scripts loaded: buffers, notify_send
+2018-07-16 21:51:47		script: downloading list of scripts...
+2018-07-16 21:51:47		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2018-07-16 21:51:56		script: 347 scripts for WeeChat 2.1
+2018-07-16 21:52:15		perl: scripts unloaded
+2018-07-16 21:52:15		fifo: pipe closed
+2018-07-16 21:52:20		URL server listening on ('127.0.1.1', 32967)
+2018-07-16 21:52:20		python scripts loaded: urlserver
+2018-07-16 21:52:20	⚠ 	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2018-07-16 21:52:20		perl scripts loaded: buffers, notify_send
+2018-07-16 21:52:20		script: 347 scripts for WeeChat 2.1
+2018-07-16 21:52:20		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2018-07-16 21:52:34	⚠ 	irc: command "list" must be executed on irc buffer (server or channel)
+2018-07-16 21:52:38		[core]
+2018-07-16 21:52:38		  away     input    save   
+2018-07-16 21:52:38		  bar      key      secure 
+2018-07-16 21:52:38		  buffer   layout   set    
+2018-07-16 21:52:38		  color    mouse    unset  
+2018-07-16 21:52:38		  command  mute     upgrade
+2018-07-16 21:52:38		  cursor   plugin   uptime 
+2018-07-16 21:52:38		  debug    print    version
+2018-07-16 21:52:38		  eval     proxy    wait   
+2018-07-16 21:52:38		  filter   quit     window 
+2018-07-16 21:52:38		  help     reload 
+2018-07-16 21:52:38		  history  repeat 
+2018-07-16 21:52:38		[trigger]
+2018-07-16 21:52:38		  trigger
+2018-07-16 21:52:38		[charset]
+2018-07-16 21:52:38		  charset
+2018-07-16 21:52:38		[xfer]
+2018-07-16 21:52:38		  me  xfer
+2018-07-16 21:52:38		[python]
+2018-07-16 21:52:38		  python  urlserver
+2018-07-16 21:52:38		[logger]
+2018-07-16 21:52:38		  logger
+2018-07-16 21:52:38		[irc]
+2018-07-16 21:52:38		  admin       oper      
+2018-07-16 21:52:38		  allchan     part      
+2018-07-16 21:52:38		  allpv       ping      
+2018-07-16 21:52:38		  allserv     pong      
+2018-07-16 21:52:38		  ban         query     
+2018-07-16 21:52:38		  cap         quiet     
+2018-07-16 21:52:38		  connect     quote     
+2018-07-16 21:52:38		  ctcp        reconnect 
+2018-07-16 21:52:38		  cycle       rehash    
+2018-07-16 21:52:38		  dcc         remove    
+2018-07-16 21:52:38		  dehalfop    restart   
+2018-07-16 21:52:38		  deop        sajoin    
+2018-07-16 21:52:38		  devoice     samode    
+2018-07-16 21:52:38		  die         sanick    
+2018-07-16 21:52:38		  disconnect  sapart    
+2018-07-16 21:52:38		  halfop      saquit    
+2018-07-16 21:52:38		  ignore      server    
+2018-07-16 21:52:38		  info        service   
+2018-07-16 21:52:38		  invite      servlist  
+2018-07-16 21:52:38		  ison        squery    
+2018-07-16 21:52:38		  join        squit     
+2018-07-16 21:52:38		  kick        stats     
+2018-07-16 21:52:38		  kickban     summon    
+2018-07-16 21:52:38		  kill        time      
+2018-07-16 21:52:38		  links       topic     
+2018-07-16 21:52:38		  list        trace     
+2018-07-16 21:52:38		  lusers      unban     
+2018-07-16 21:52:38		  map         unquiet   
+2018-07-16 21:52:38		  me          userhost  
+2018-07-16 21:52:38		  mode        users     
+2018-07-16 21:52:38		  motd        version   
+2018-07-16 21:52:38		  msg         voice     
+2018-07-16 21:52:38		  names       wallchops 
+2018-07-16 21:52:38		  nick        wallops   
+2018-07-16 21:52:38		  notice      who       
+2018-07-16 21:52:38		  notify      whois     
+2018-07-16 21:52:38		  op          whowas    
+2018-07-16 21:52:38		[lua]
+2018-07-16 21:52:38		  lua
+2018-07-16 21:52:38		[guile]
+2018-07-16 21:52:38		  guile
+2018-07-16 21:52:38		[fifo]
+2018-07-16 21:52:38		  fifo
+2018-07-16 21:52:38		[alias]
+2018-07-16 21:52:38		  AAWAY    IG       SIGNOFF
+2018-07-16 21:52:38		  alias    J        T      
+2018-07-16 21:52:38		  AME      K        UB     
+2018-07-16 21:52:38		  AMSG     KB       UMODE  
+2018-07-16 21:52:38		  ANICK    LEAVE    V      
+2018-07-16 21:52:38		  BYE      M        W      
+2018-07-16 21:52:38		  C        MUB      WC     
+2018-07-16 21:52:38		  CHAT     N        WI     
+2018-07-16 21:52:38		  CL       Q        WII    
+2018-07-16 21:52:38		  CLOSE    REDRAW   WW     
+2018-07-16 21:52:38		  EXIT     SAY    
+2018-07-16 21:52:38		[buflist]
+2018-07-16 21:52:38		  buflist
+2018-07-16 21:52:38		[aspell]
+2018-07-16 21:52:38		  aspell
+2018-07-16 21:52:38		[ruby]
+2018-07-16 21:52:38		  ruby
+2018-07-16 21:52:38		[script]
+2018-07-16 21:52:38		  script
+2018-07-16 21:52:38		[exec]
+2018-07-16 21:52:38		  exec
+2018-07-16 21:52:38		[fset]
+2018-07-16 21:52:38		  fset
+2018-07-16 21:52:38		[perl]
+2018-07-16 21:52:38		  buffers_detach   
+2018-07-16 21:52:38		  buffers_whitelist
+2018-07-16 21:52:38		  perl             
+2018-07-16 21:52:38		[relay]
+2018-07-16 21:52:38		  relay
+2018-07-16 21:57:42		perl: scripts unloaded
+2018-07-16 21:57:42		fifo: pipe closed
+2018-07-16 21:59:16		URL server listening on ('127.0.1.1', 39811)
+2018-07-16 21:59:16		python scripts loaded: urlserver
+2018-07-16 21:59:16	⚠ 	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2018-07-16 21:59:16		perl scripts loaded: buffers, notify_send
+2018-07-16 21:59:16		script: 347 scripts for WeeChat 2.1
+2018-07-16 21:59:16		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2018-07-16 23:48:35		perl: scripts unloaded
+2018-07-16 23:48:35		fifo: pipe closed
+2018-07-17 21:13:28		URL server listening on ('127.0.1.1', 42173)
+2018-07-17 21:13:28		python scripts loaded: urlserver
+2018-07-17 21:13:28	⚠ 	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2018-07-17 21:13:28		perl scripts loaded: buffers, notify_send
+2018-07-17 21:13:28		script: downloading list of scripts...
+2018-07-17 21:13:28		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2018-07-17 21:13:40		script: 347 scripts for WeeChat 2.1
+2018-07-18 00:03:23		perl: scripts unloaded
+2018-07-18 00:03:23		fifo: pipe closed
+2018-08-13 19:22:36		URL server listening on ('127.0.1.1', 33119)
+2018-08-13 19:22:36		python scripts loaded: urlserver
+2018-08-13 19:22:36	⚠ 	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2018-08-13 19:22:36		perl scripts loaded: buffers, notify_send
+2018-08-13 19:22:36		script: downloading list of scripts...
+2018-08-13 19:22:36		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2018-08-13 19:22:41		script: 346 scripts for WeeChat 2.2
+2018-08-13 19:22:51		perl: scripts unloaded
+2018-08-13 19:22:51		fifo: pipe closed
+2018-08-13 19:23:23		URL server listening on ('127.0.1.1', 33167)
+2018-08-13 19:23:23		python scripts loaded: urlserver
+2018-08-13 19:23:23	⚠ 	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2018-08-13 19:23:23		perl scripts loaded: buffers, notify_send
+2018-08-13 19:23:23		script: 346 scripts for WeeChat 2.2
+2018-08-13 19:23:23		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2018-08-13 19:23:28		perl: scripts unloaded
+2018-08-13 19:23:28		fifo: pipe closed
+2018-08-13 19:23:46		URL server listening on ('127.0.1.1', 42405)
+2018-08-13 19:23:46		python scripts loaded: urlserver
+2018-08-13 19:23:46	⚠ 	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2018-08-13 19:23:46		perl scripts loaded: buffers, notify_send
+2018-08-13 19:23:46		script: 346 scripts for WeeChat 2.2
+2018-08-13 19:23:46		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2018-08-15 16:36:07		URL server listening on ('127.0.1.1', 42623)
+2018-08-15 16:36:07		python scripts loaded: urlserver
+2018-08-15 16:36:07	⚠ 	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2018-08-15 16:36:07		perl scripts loaded: buffers, notify_send
+2018-08-15 16:36:07		script: downloading list of scripts...
+2018-08-15 16:36:07		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2018-08-15 16:36:14		script: 346 scripts for WeeChat 2.2
+2018-08-15 18:24:27		perl: scripts unloaded
+2018-08-15 18:24:27		fifo: pipe closed
+2018-09-11 12:16:20		URL server listening on ('127.0.1.1', 36349)
+2018-09-11 12:16:20		python scripts loaded: urlserver
+2018-09-11 12:16:20	⚠ 	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2018-09-11 12:16:20		perl scripts loaded: buffers, notify_send
+2018-09-11 12:16:20		script: downloading list of scripts...
+2018-09-11 12:16:20		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2018-09-11 12:16:25		script: 346 scripts for WeeChat 2.2
+2018-09-11 12:16:36		perl: scripts unloaded
+2018-09-11 12:16:36		fifo: pipe closed
+2018-09-11 12:16:56		URL server listening on ('127.0.1.1', 34119)
+2018-09-11 12:16:56		python scripts loaded: urlserver
+2018-09-11 12:16:56	⚠ 	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2018-09-11 12:16:56		perl scripts loaded: buffers, notify_send
+2018-09-11 12:16:56		script: 346 scripts for WeeChat 2.2
+2018-09-11 12:16:56		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2018-09-11 13:38:10		perl: scripts unloaded
+2018-09-11 13:38:10		fifo: pipe closed
+2018-09-25 17:24:24		URL server listening on ('127.0.1.1', 45201)
+2018-09-25 17:24:24		python scripts loaded: urlserver
+2018-09-25 17:24:24	⚠ 	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2018-09-25 17:24:24		perl scripts loaded: buffers, notify_send
+2018-09-25 17:24:24		script: downloading list of scripts...
+2018-09-25 17:24:24		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2018-09-25 17:24:34		script: 356 scripts for WeeChat 2.2
+2018-09-25 17:25:44		perl: scripts unloaded
+2018-09-25 17:25:44		fifo: pipe closed
+2018-10-01 22:47:00		URL server listening on ('127.0.1.1', 45791)
+2018-10-01 22:47:00		python scripts loaded: urlserver
+2018-10-01 22:47:00	⚠ 	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2018-10-01 22:47:00		perl scripts loaded: buffers, notify_send
+2018-10-01 22:47:00		script: downloading list of scripts...
+2018-10-01 22:47:00		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2018-10-01 22:47:18		script: 357 scripts for WeeChat 2.2
+2018-10-01 22:47:33		[core]
+2018-10-01 22:47:33		  away     color    debug    help     key      mute     proxy    repeat   set      uptime   window 
+2018-10-01 22:47:33		  bar      command  eval     history  layout   plugin   quit     save     unset    version
+2018-10-01 22:47:33		  buffer   cursor   filter   input    mouse    print    reload   secure   upgrade  wait   
+2018-10-01 22:47:33		[trigger]
+2018-10-01 22:47:33		  trigger
+2018-10-01 22:47:33		[charset]
+2018-10-01 22:47:33		  charset
+2018-10-01 22:47:33		[xfer]
+2018-10-01 22:47:33		  me  xfer
+2018-10-01 22:47:33		[python]
+2018-10-01 22:47:33		  python  urlserver
+2018-10-01 22:47:33		[logger]
+2018-10-01 22:47:33		  logger
+2018-10-01 22:47:33		[irc]
+2018-10-01 22:47:33		  admin       dehalfop    join        motd        pong        sanick      time        wallops   
+2018-10-01 22:47:33		  allchan     deop        kick        msg         query       sapart      topic       who       
+2018-10-01 22:47:33		  allpv       devoice     kickban     names       quiet       saquit      trace       whois     
+2018-10-01 22:47:33		  allserv     die         kill        nick        quote       server      unban       whowas    
+2018-10-01 22:47:33		  ban         disconnect  links       notice      reconnect   service     unquiet   
+2018-10-01 22:47:33		  cap         halfop      list        notify      rehash      servlist    userhost  
+2018-10-01 22:47:33		  connect     ignore      lusers      op          remove      squery      users     
+2018-10-01 22:47:33		  ctcp        info        map         oper        restart     squit       version   
+2018-10-01 22:47:33		  cycle       invite      me          part        sajoin      stats       voice     
+2018-10-01 22:47:33		  dcc         ison        mode        ping        samode      summon      wallchops 
+2018-10-01 22:47:33		[lua]
+2018-10-01 22:47:33		  lua
+2018-10-01 22:47:33		[guile]
+2018-10-01 22:47:33		  guile
+2018-10-01 22:47:33		[fifo]
+2018-10-01 22:47:33		  fifo
+2018-10-01 22:47:33		[alias]
+2018-10-01 22:47:33		  AAWAY    AMSG     C        CLOSE    J        LEAVE    N        SAY      UB       W        WII    
+2018-10-01 22:47:33		  alias    ANICK    CHAT     EXIT     K        M        Q        SIGNOFF  UMODE    WC       WW     
+2018-10-01 22:47:33		  AME      BYE      CL       IG       KB       MUB      REDRAW   T        V        WI     
+2018-10-01 22:47:33		[buflist]
+2018-10-01 22:47:33		  buflist
+2018-10-01 22:47:33		[aspell]
+2018-10-01 22:47:33		  aspell
+2018-10-01 22:47:33		[ruby]
+2018-10-01 22:47:33		  ruby
+2018-10-01 22:47:33		[script]
+2018-10-01 22:47:33		  script
+2018-10-01 22:47:33		[exec]
+2018-10-01 22:47:33		  exec
+2018-10-01 22:47:33		[fset]
+2018-10-01 22:47:33		  fset
+2018-10-01 22:47:33		[perl]
+2018-10-01 22:47:33		  buffers_detach  buffers_whitelist  perl
+2018-10-01 22:47:33		[relay]
+2018-10-01 22:47:33		  relay
+2018-10-01 22:48:02		perl: scripts unloaded
+2018-10-01 22:48:02		fifo: pipe closed
+2019-01-18 22:14:43		URL server listening on ('127.0.1.1', 34947)
+2019-01-18 22:14:43		python scripts loaded: urlserver
+2019-01-18 22:14:43	⚠ 	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2019-01-18 22:14:43		perl scripts loaded: buffers, notify_send
+2019-01-18 22:14:43		script: downloading list of scripts...
+2019-01-18 22:14:43		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2019-01-18 22:14:51		script: 359 scripts for WeeChat 2.3
+2019-01-18 23:31:53		perl: scripts unloaded
+2019-01-18 23:31:53		fifo: pipe closed
+2019-01-21 19:40:16		URL server listening on ('127.0.1.1', 40757)
+2019-01-21 19:40:16		python scripts loaded: urlserver
+2019-01-21 19:40:16	⚠ 	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2019-01-21 19:40:16		perl scripts loaded: buffers, notify_send
+2019-01-21 19:40:16		script: downloading list of scripts...
+2019-01-21 19:40:16		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2019-01-21 19:40:31		script: 359 scripts for WeeChat 2.3
+2019-01-22 21:53:03		perl: scripts unloaded
+2019-01-22 21:53:03		fifo: pipe closed
+2019-03-15 09:15:17		New key binding (context "default"): meta2-1;5P => /bar scroll buflist * -100%
+2019-03-15 09:15:17		New key binding (context "default"): meta2-1;5Q => /bar scroll buflist * +100%
+2019-03-15 09:15:17		New key binding (context "default"): meta2-1;3Q => /bar scroll buflist * e
+2019-03-15 09:15:17		New key binding (context "default"): meta2-1;3P => /bar scroll buflist * b
+2019-03-15 09:15:17		New key binding (context "default"): meta-meta2-12~ => /bar scroll buflist * e
+2019-03-15 09:15:17		New key binding (context "default"): meta-meta2-11~ => /bar scroll buflist * b
+2019-03-15 09:15:17		New key binding (context "default"): meta2-12^ => /bar scroll buflist * +100%
+2019-03-15 09:15:17		New key binding (context "default"): meta2-12~ => /bar scroll buflist * +100%
+2019-03-15 09:15:17		New key binding (context "default"): meta2-11^ => /bar scroll buflist * -100%
+2019-03-15 09:15:17		New key binding (context "default"): meta2-11~ => /bar scroll buflist * -100%
+2019-03-15 09:15:17		URL server listening on ('127.0.1.1', 34711)
+2019-03-15 09:15:17		python scripts loaded: urlserver
+2019-03-15 09:15:17	⚠ 	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2019-03-15 09:15:17		perl scripts loaded: buffers, notify_send
+2019-03-15 09:15:17		script: downloading list of scripts...
+2019-03-15 09:15:17		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2019-03-15 09:15:24		perl: scripts unloaded
+2019-03-15 09:15:24		fifo: pipe closed
+2019-03-15 09:21:49		URL server listening on ('127.0.1.1', 41961)
+2019-03-15 09:21:49		python scripts loaded: urlserver
+2019-03-15 09:21:49	⚠ 	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2019-03-15 09:21:49		perl scripts loaded: buffers, notify_send
+2019-03-15 09:21:49		script: downloading list of scripts...
+2019-03-15 09:21:49		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2019-03-15 09:22:25		perl: scripts unloaded
+2019-03-15 09:22:25		fifo: pipe closed
+2019-04-11 16:14:30		URL server listening on ('127.0.1.1', 37703)
+2019-04-11 16:14:30		python scripts loaded: urlserver
+2019-04-11 16:14:30	⚠ 	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2019-04-11 16:14:30		perl scripts loaded: buffers, notify_send
+2019-04-11 16:14:30		script: downloading list of scripts...
+2019-04-11 16:14:30		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2019-04-11 16:15:15		perl: scripts unloaded
+2019-04-11 16:15:15		fifo: pipe closed
+2019-07-08 16:22:10	⚠ 	spell: warning: the plugin "aspell" has been renamed to "spell" and the file /home/zoro/.weechat/aspell.conf still exists (but not /home/zoro/.weechat/spell.conf); if you upgraded from an older version, you should check instructions in release notes (version 2.5) to recover your settings
+2019-07-08 16:22:10	⚠ 	Warning: /home/zoro/.weechat/xfer.conf, line 34: unknown option for section "network": speed_limit = 0
+2019-07-08 16:22:10		URL server listening on ('127.0.1.1', 37457)
+2019-07-08 16:22:10		python scripts loaded: urlserver
+2019-07-08 16:22:10	⚠ 	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2019-07-08 16:22:10		perl scripts loaded: buffers, notify_send
+2019-07-08 16:22:10		script: downloading list of scripts...
+2019-07-08 16:22:10		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, spell, tcl, trigger, xfer
+2019-07-08 16:22:18		script: 363 scripts for WeeChat 2.5
+2019-07-08 16:23:45		perl: scripts unloaded
+2019-07-08 16:23:45		fifo: pipe closed

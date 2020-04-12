@@ -1,0 +1,656 @@
+2018-07-16 21:59:23	→	zorowk (~zorowk@113.110.228.181) has joined ##crypto
+2018-07-16 21:59:23	↪ 	Topic for ##crypto is "Welcome to ##crypto for cryptography theory and practice | Cryptocurrency without discussing cryptography is off-topic. Try ##altcoins | Resources: http://www.cacr.math.uwaterloo.ca/hac https://www.keylength.com | Ethics: http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf | See also https://reddit.com/r/crypto | http://cryptoisnotcryptocurrency.com/"
+2018-07-16 21:59:23	↪ 	Topic set by eightyeight on Wed, 17 Jan 2018 21:38:08
+2018-07-16 21:59:23	↪ 	Channel ##crypto: 757 nicks (1 op, 0 voices, 756 normals)
+2018-07-16 21:59:24	↪ 	Channel created on Sun, 26 Nov 2006 14:42:42
+2018-07-16 22:02:32	→	BOKALDO (~BOKALDO@81.198.20.208) has joined ##crypto
+2018-07-16 22:03:58	←	rsrx (~rsrx@cable-94-189-226-199.dynamic.sbb.rs) has quit (Read error: Connection reset by peer)
+2018-07-16 22:05:49	←	kevthanewversi (~kevthanew@154.72.17.66) has quit (Quit: This computer has gone to sleep)
+2018-07-16 22:06:26	←	adoua (~adoua@unaffiliated/adoua) has quit (Ping timeout: 240 seconds)
+2018-07-16 22:08:59	←	Human_G33k (~HumanG33k@62.147.242.8) has quit (Remote host closed the connection)
+2018-07-16 22:09:26	←	lolusuxx (~lolusux@77.87.22.202) has quit (Ping timeout: 240 seconds)
+2018-07-16 22:11:01	→	sy11ab3__ (~sy11ab3a_@92.54.140.117) has joined ##crypto
+2018-07-16 22:12:07	→	Human_G33k (~HumanG33k@62.147.242.8) has joined ##crypto
+2018-07-16 22:13:12	→	prepend (~textual@198.246.100.83) has joined ##crypto
+2018-07-16 22:14:25	←	dcousens (~dcousens@110.140.174.10) has quit (Quit: Ping timeout (120 seconds))
+2018-07-16 22:14:52	→	dcousens (~dcousens@110.140.174.10) has joined ##crypto
+2018-07-16 22:14:56	←	Crypto_Cube (~chatzilla@185.76.10.138) has quit (Quit: ChatZilla 0.9.93 [Firefox 52.9.0/20180621064021])
+2018-07-16 22:18:05	→	lolusux (~lolusux@77.87.22.202) has joined ##crypto
+2018-07-16 22:21:05	←	Tsutsukakushi (~Tsutsukak@185.165.169.193) has quit (Ping timeout: 256 seconds)
+2018-07-16 22:23:55	→	Tsutsukakushi (~Tsutsukak@185.165.169.193) has joined ##crypto
+2018-07-16 22:40:19	→	machined1od (~machinedg@207.107.69.53) has joined ##crypto
+2018-07-16 22:41:10	↪ 	eb0t_ is now known as eblip
+2018-07-16 22:46:51	→	sy11ab___ (~sy11ab3a_@194.73.143.14) has joined ##crypto
+2018-07-16 22:47:38	→	aep4 (~aep@libqxt/developer/aep) has joined ##crypto
+2018-07-16 22:49:56	←	lolusux (~lolusux@77.87.22.202) has quit (Ping timeout: 240 seconds)
+2018-07-16 22:50:07	←	sy11ab3__ (~sy11ab3a_@92.54.140.117) has quit (Ping timeout: 248 seconds)
+2018-07-16 22:51:09	←	Human_G33k (~HumanG33k@62.147.242.8) has quit (Remote host closed the connection)
+2018-07-16 22:51:38	→	Human_G33k (~HumanG33k@62.147.242.8) has joined ##crypto
+2018-07-16 22:53:09	←	maboc (~Thunderbi@145.52.210.231) has quit (Quit: maboc)
+2018-07-16 22:54:49	→	alem0lars (~alem0lars@5-157-122-169.v4.ngi.it) has joined ##crypto
+2018-07-16 22:55:04	↪ 	Guest53529 is now known as ApeDosMil
+2018-07-16 22:55:33	↪ 	ApeDosMil is now known as Guest81841
+2018-07-16 23:02:36	←	synthroid (~synthroid@50.202.5.122) has quit (Remote host closed the connection)
+2018-07-16 23:07:29	→	mauz555 (~mauz555@bny93-8-88-171-29-234.fbx.proxad.net) has joined ##crypto
+2018-07-16 23:08:37	→	mauz555_ (~mauz555@2a01:e35:8ab1:dea0:b9ed:4eed:5e3d:c312) has joined ##crypto
+2018-07-16 23:12:45	←	mauz555 (~mauz555@bny93-8-88-171-29-234.fbx.proxad.net) has quit (Ping timeout: 256 seconds)
+2018-07-16 23:13:39	←	SopaXorzTaker (~SopaXorzT@unaffiliated/sopaxorztaker) has quit (Remote host closed the connection)
+2018-07-16 23:13:39	←	mauz555_ (~mauz555@2a01:e35:8ab1:dea0:b9ed:4eed:5e3d:c312) has quit (Remote host closed the connection)
+2018-07-16 23:13:43	→	c^ (~c^@unaffiliated/chipwolf) has joined ##crypto
+2018-07-16 23:17:19	←	Bonstra (~Bonstra@val.bonstra.fr.eu.org) has quit (Ping timeout: 240 seconds)
+2018-07-16 23:17:23	→	SopaXorzTaker (~SopaXorzT@unaffiliated/sopaxorztaker) has joined ##crypto
+2018-07-16 23:17:50	←	ludde (~b@host.62.65.106.155.bitcom.se) has quit
+2018-07-16 23:18:50	←	Alina-malina (~Alina-mal@unaffiliated/alina-malina) has quit (Ping timeout: 244 seconds)
+2018-07-16 23:19:06	→	synthroid (~synthroid@50.202.5.122) has joined ##crypto
+2018-07-16 23:19:50	←	SopaXorzTaker (~SopaXorzT@unaffiliated/sopaxorztaker) has quit (Read error: Connection reset by peer)
+2018-07-16 23:20:28	←	animtakhnet (~Randomnes@94.124.138.66) has quit (Quit: animtakhnet)
+2018-07-16 23:21:06	→	kevthanewversi (~kevthanew@196.202.162.150) has joined ##crypto
+2018-07-16 23:21:18	→	SopaXorzTaker (~SopaXorzT@unaffiliated/sopaxorztaker) has joined ##crypto
+2018-07-16 23:26:39	→	maiz (~maiz@197.201.143.194) has joined ##crypto
+2018-07-16 23:29:00	→	thevishy (~thevishy@103.72.176.147) has joined ##crypto
+2018-07-16 23:29:40	↪ 	samm__ is now known as samm_
+2018-07-16 23:30:48	→	marky1991 (~marky1991@unaffiliated/marky1991) has joined ##crypto
+2018-07-16 23:34:12	←	thevishy (~thevishy@103.72.176.147) has quit (Quit: thevishy)
+2018-07-16 23:37:35	→	SrPx (c9359b5c@gateway/web/cgi-irc/kiwiirc.com/ip.201.53.155.92) has joined ##crypto
+2018-07-16 23:38:21	→	torchic_____ (~noturboo@i.am.phantas.tk) has joined ##crypto
+2018-07-16 23:38:48	←	tavn (~tavn@2601:646:9401:e12b:edd4:f8d4:2617:1618) has quit (Ping timeout: 265 seconds)
+2018-07-16 23:41:19	←	torchic___ (~noturboo@i.am.phantas.tk) has quit (Ping timeout: 240 seconds)
+2018-07-16 23:43:28	→	xuxuru (~xuxuru@gateway/tor-sasl/xuxuru) has joined ##crypto
+2018-07-16 23:43:49	←	spear2 (~spear2@71-95-117-77.dhcp.mdfd.or.charter.com) has quit (Quit: Leaving)
+2018-07-16 23:44:39	←	gogbog (~gogbog@94.26.61.245) has quit (Quit: Leaving)
+2018-07-16 23:44:45	←	xuxuru (~xuxuru@gateway/tor-sasl/xuxuru) has quit (Client Quit)
+2018-07-16 23:46:20	→	xuxuru (~xuxuru@gateway/tor-sasl/xuxuru) has joined ##crypto
+2018-07-16 23:46:56	→	mizu_no_oto_work (~textual@2604:6000:1012:4098:0:4ab1:4648:4083) has joined ##crypto
+2018-07-16 23:47:33	←	mizu_no_oto_work (~textual@2604:6000:1012:4098:0:4ab1:4648:4083) has quit (Client Quit)
+2018-07-16 23:48:35	↪ 	irc: disconnected from server
+2018-07-17 21:13:37	→	zorowk (~zorowk@113.87.162.201) has joined ##crypto
+2018-07-17 21:13:37	↪ 	Topic for ##crypto is "Welcome to ##crypto for cryptography theory and practice | Cryptocurrency without discussing cryptography is off-topic. Try ##altcoins | Resources: http://www.cacr.math.uwaterloo.ca/hac https://www.keylength.com | Ethics: http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf | See also https://reddit.com/r/crypto | http://cryptoisnotcryptocurrency.com/"
+2018-07-17 21:13:37	↪ 	Topic set by eightyeight on Wed, 17 Jan 2018 21:38:08
+2018-07-17 21:13:38	↪ 	Channel ##crypto: 751 nicks (1 op, 0 voices, 750 normals)
+2018-07-17 21:13:38	↪ 	Channel created on Sun, 26 Nov 2006 14:42:42
+2018-07-17 21:14:39	→	synthroi_ (synthroid@gateway/vpn/privateinternetaccess/synthroid) has joined ##crypto
+2018-07-17 21:16:02	→	feigned (~son1dow@unaffiliated/son1dow) has joined ##crypto
+2018-07-17 21:16:14	→	Guest5800_ (uid172710@gateway/web/irccloud.com/x-sddcvxznbibdzpfe) has joined ##crypto
+2018-07-17 21:17:05	↪ 	Guest23422 is now known as ApeDosMil
+2018-07-17 21:17:21	←	synthroid (~synthroid@50.202.5.122) has quit (Ping timeout: 244 seconds)
+2018-07-17 21:17:25	thekolb	jvoisin: thanks!
+2018-07-17 21:17:35	↪ 	ApeDosMil is now known as Guest13186
+2018-07-17 21:18:31	→	maiz (~maiz@197.201.143.194) has joined ##crypto
+2018-07-17 21:18:33	→	Raybih (Raybih@49.125.56.155) has joined ##crypto
+2018-07-17 21:19:46	Raybih	nontrinitarian denominations comprise a minority of modern Christianity. 
+2018-07-17 21:24:27	→	unfld (~unfld@88.97.48.238) has joined ##crypto
+2018-07-17 21:24:45	→	darkness (~darkness@58.174.96.40) has joined ##crypto
+2018-07-17 21:24:49	←	zulutango (~zulutango@static-n49-176-171-248.mas2.nsw.optusnet.com.au) has quit (Ping timeout: 240 seconds)
+2018-07-17 21:24:52	←	darkness (~darkness@58.174.96.40) has quit (Client Quit)
+2018-07-17 21:26:40	→	Alina-malina (~Alina-mal@unaffiliated/alina-malina) has joined ##crypto
+2018-07-17 21:27:12	K_F	Raybih: and that relates to crypto, how?
+2018-07-17 21:28:06	←	graphene (~graphene@46.101.134.251) has quit (Remote host closed the connection)
+2018-07-17 21:29:10	→	graphene (~graphene@46.101.134.251) has joined ##crypto
+2018-07-17 21:30:28	←	EmmyNoether (~EmmyNoeth@xn--ht-1ia18f.nonceword.org) has quit (Remote host closed the connection)
+2018-07-17 21:30:46	→	EmmyNoether (~EmmyNoeth@xn--ht-1ia18f.nonceword.org) has joined ##crypto
+2018-07-17 21:32:24	Raybih	, nontrinitarian denominations comprise a minority of modern Christianity. 
+2018-07-17 21:33:27	→	BOKALDO (~BOKALDO@46.109.200.75) has joined ##crypto
+2018-07-17 21:34:05	→	hashist (~hasj@157.157.113.210) has joined ##crypto
+2018-07-17 21:35:00	→	synthroid (~synthroid@50.202.5.122) has joined ##crypto
+2018-07-17 21:36:39	↪ 	Mode ##crypto [+o eightyeight] by ChanServ
+2018-07-17 21:36:52	@eightyeight	Raybih: none of that. stay on topic please.
+2018-07-17 21:38:01	←	synthroi_ (synthroid@gateway/vpn/privateinternetaccess/synthroid) has quit (Ping timeout: 244 seconds)
+2018-07-17 21:38:13	iz	i think his client or person is messed up; he said the same lines of text randomly in some other channels also
+2018-07-17 21:38:47	→	brelane_ (~brelane@172-4-45-248.lightspeed.hstntx.sbcglobal.net) has joined ##crypto
+2018-07-17 21:39:11	fxrh	he's even doing it on multiple networks
+2018-07-17 21:39:20	→	machined1od (~machinedg@207.107.69.53) has joined ##crypto
+2018-07-17 21:43:11	SopaXorzTaker	iz, maybe there's a cat walking on his keyboard?
+2018-07-17 21:43:21	SopaXorzTaker	looks like he's copy-pasting and randomly switching channels
+2018-07-17 21:44:23	←	Human_G33k (~HumanG33k@62.147.242.8) has quit (Quit: Leaving)
+2018-07-17 21:44:54	→	Human_G33k (~HumanG33k@62.147.242.8) has joined ##crypto
+2018-07-17 21:45:44	←	hashist (~hasj@157.157.113.210) has quit (Remote host closed the connection)
+2018-07-17 21:46:08	→	hashist (~hasj@157.157.113.210) has joined ##crypto
+2018-07-17 21:46:17	←	Darkraven (~Darkraven@186.137.63.24) has quit (Ping timeout: 244 seconds)
+2018-07-17 21:46:38	feigned	congratulations everyone, Democrats now backing Dianne Feinstein's opponent
+2018-07-17 21:47:03	K_F	feigned: not interested
+2018-07-17 21:48:07	@eightyeight	feigned: stay on topic please
+2018-07-17 21:48:08	feigned	I just thought some of you might find it relevant, given her work such as this
+2018-07-17 21:48:11	feigned	oh
+2018-07-17 21:48:15	feigned	ok then, nvm
+2018-07-17 21:49:01	←	vcorem (~vcorem@31.154.51.166) has quit
+2018-07-17 21:52:30	→	mauz555 (~mauz555@bny93-8-88-171-29-234.fbx.proxad.net) has joined ##crypto
+2018-07-17 21:52:59	→	johnward (~johnward@78.40.148.184) has joined ##crypto
+2018-07-17 21:53:18	→	legon (~legon@h-138-37.A336.priv.bahnhof.se) has joined ##crypto
+2018-07-17 21:54:42	←	brelane_ (~brelane@172-4-45-248.lightspeed.hstntx.sbcglobal.net) has quit (Quit: My MacBook Air has gone to sleep. ZZZzzz…)
+2018-07-17 21:57:51	→	Zarutian (~zarutian@173-133-17-89.fiber.hringdu.is) has joined ##crypto
+2018-07-17 22:05:59	←	kevthanewversi (~kevthanew@154.72.17.66) has quit (Quit: This computer has gone to sleep)
+2018-07-17 22:09:47	←	pe3z (~user@gateway/tor-sasl/pe3z) has quit (Ping timeout: 250 seconds)
+2018-07-17 22:18:05	↪ 	Guest13186 is now known as ApeDosMil
+2018-07-17 22:18:23	←	hashist (~hasj@157.157.113.210) has left ##crypto ("Leaving")
+2018-07-17 22:18:24	→	thewaspsknees (~eddie@host31-53-134-66.range31-53.btcentralplus.com) has joined ##crypto
+2018-07-17 22:18:29	←	thewaspsknees (~eddie@host31-53-134-66.range31-53.btcentralplus.com) has quit (Max SendQ exceeded)
+2018-07-17 22:18:35	↪ 	ApeDosMil is now known as Guest349
+2018-07-17 22:19:11	↪ 	Mode ##crypto [-o eightyeight] by eightyeight
+2018-07-17 22:19:46	←	SopaXorzTaker (~SopaXorzT@unaffiliated/sopaxorztaker) has quit (Remote host closed the connection)
+2018-07-17 22:20:06	→	thewaspsknees (~eddie@host31-53-134-66.range31-53.btcentralplus.com) has joined ##crypto
+2018-07-17 22:20:09	←	bnyio (~bnyio@alcatraz.open-xchange.com) has quit (Quit: WeeChat 2.1)
+2018-07-17 22:20:14	←	thewaspsknees (~eddie@host31-53-134-66.range31-53.btcentralplus.com) has quit (Max SendQ exceeded)
+2018-07-17 22:20:16	→	SopaXorzTaker (~SopaXorzT@unaffiliated/sopaxorztaker) has joined ##crypto
+2018-07-17 22:20:56	→	thewaspsknees (~eddie@host31-53-134-66.range31-53.btcentralplus.com) has joined ##crypto
+2018-07-17 22:21:05	←	thewaspsknees (~eddie@host31-53-134-66.range31-53.btcentralplus.com) has quit (Max SendQ exceeded)
+2018-07-17 22:21:14	←	Raybih (Raybih@49.125.56.155) has quit
+2018-07-17 22:21:44	→	thewaspsknees (~eddie@host31-53-134-66.range31-53.btcentralplus.com) has joined ##crypto
+2018-07-17 22:21:52	←	thewaspsknees (~eddie@host31-53-134-66.range31-53.btcentralplus.com) has quit (Max SendQ exceeded)
+2018-07-17 22:22:40	←	marky1991 (~marky1991@unaffiliated/marky1991) has quit (Read error: Connection reset by peer)
+2018-07-17 22:23:02	→	thewaspsknees (~eddie@host31-53-134-66.range31-53.btcentralplus.com) has joined ##crypto
+2018-07-17 22:23:09	→	marky1991 (~marky1991@unaffiliated/marky1991) has joined ##crypto
+2018-07-17 22:23:50	←	marky1991 (~marky1991@unaffiliated/marky1991) has quit (Read error: Connection reset by peer)
+2018-07-17 22:24:30	→	marky1991 (~marky1991@unaffiliated/marky1991) has joined ##crypto
+2018-07-17 22:25:28	→	Letimed (~Letimed@2a01:e35:2e8b:de60:48cd:9cac:fbec:bc45) has joined ##crypto
+2018-07-17 22:26:35	←	graphene (~graphene@46.101.134.251) has quit (Remote host closed the connection)
+2018-07-17 22:27:37	→	graphene (~graphene@46.101.134.251) has joined ##crypto
+2018-07-17 22:28:34	←	graphene (~graphene@46.101.134.251) has quit (Remote host closed the connection)
+2018-07-17 22:29:37	→	graphene (~graphene@46.101.134.251) has joined ##crypto
+2018-07-17 22:30:17	←	Letimed (~Letimed@2a01:e35:2e8b:de60:48cd:9cac:fbec:bc45) has quit (Client Quit)
+2018-07-17 22:31:05	←	thekolb (~mrottenko@2a01:4f8:130:1086::2) has left ##crypto
+2018-07-17 22:31:42	→	Letimed (~Letimed@2a01:e35:2e8b:de60:48cd:9cac:fbec:bc45) has joined ##crypto
+2018-07-17 22:34:19	←	johnward (~johnward@78.40.148.184) has left ##crypto ("Leaving...")
+2018-07-17 22:35:57	←	lorddaedra (~lorddaedr@213.141.139.44) has quit (Remote host closed the connection)
+2018-07-17 22:36:42	→	lorddaedra (~lorddaedr@78.157.211.238) has joined ##crypto
+2018-07-17 22:37:45	←	graphene (~graphene@46.101.134.251) has quit (Read error: Connection reset by peer)
+2018-07-17 22:38:45	→	graphene (~graphene@46.101.134.251) has joined ##crypto
+2018-07-17 22:38:46	→	butterbiscuit (~butterbis@185.153.177.9) has joined ##crypto
+2018-07-17 22:38:52	→	butter-biscuit (~butterbis@185.153.177.9) has joined ##crypto
+2018-07-17 22:44:51	→	coellobranco (~FoRcEr@49.10.165.83.dynamic.reverse-mundo-r.com) has joined ##crypto
+2018-07-17 22:45:13	SopaXorzTaker	<SopaXorzTaker> WHY THE FUCK ARE YOU SPAMMING EVERY CHANNEL?!?!!?!!!!
+2018-07-17 22:45:14	SopaXorzTaker	 
+2018-07-17 22:45:14	SopaXorzTaker	* Loaded log from Tue Jul 17 16:40:55 2018
+2018-07-17 22:45:14	SopaXorzTaker	 
+2018-07-17 22:45:14	SopaXorzTaker	<Raybih> indo european mythology
+2018-07-17 22:45:31	SopaXorzTaker	hmm, okay...
+2018-07-17 22:48:10	←	butter-biscuit (~butterbis@185.153.177.9) has quit (Quit: Leaving)
+2018-07-17 22:48:20	rain1	cool
+2018-07-17 22:50:49	←	spear2 (~spear2@71-95-117-77.dhcp.mdfd.or.charter.com) has quit (Remote host closed the connection)
+2018-07-17 22:53:03	←	lorddaedra (~lorddaedr@78.157.211.238) has quit (Read error: Connection timed out)
+2018-07-17 22:53:13	Riastradh	For what it's worth, K_F and eightyeight: Feinstein has consistently supported legislation enabling warrantless mass surveillance and mandating encryption back doors, and as the ranking Democrat on the Senate Judiciary Committee, she has a lot of clout.  It's not just party politicking; Feinstein matters in this area in the US.
+2018-07-17 22:53:51	→	Vonter (~Vonter@49.206.10.48) has joined ##crypto
+2018-07-17 22:54:23	←	Vonter (~Vonter@49.206.10.48) has quit (Max SendQ exceeded)
+2018-07-17 22:54:32	→	lorddaedra (~lorddaedr@78.157.211.238) has joined ##crypto
+2018-07-17 22:55:26	→	Vonter (~Vonter@49.206.10.48) has joined ##crypto
+2018-07-17 22:56:25	←	alip (~alip@exherbo/developer/alip) has quit (Ping timeout: 245 seconds)
+2018-07-17 22:56:52	←	maboc (~Thunderbi@145.52.210.231) has quit (Quit: maboc)
+2018-07-17 22:59:57	feigned	that's why I posted this, not due to some irrelevant policy
+2018-07-17 23:00:00	→	pera (~pera@unaffiliated/pera) has joined ##crypto
+2018-07-17 23:00:03	feigned	with that said, they're familiar with her
+2018-07-17 23:00:07	feigned	I'm sure
+2018-07-17 23:00:15	feigned	and they made the decision to call this offtopic knowing this
+2018-07-17 23:00:19	feigned	so, fair enough
+2018-07-17 23:02:26	rain1	amber rudd too
+2018-07-17 23:03:16	←	Adbray_ (~Adbray@172-222-034-231.dhcp.chtrptr.net) has quit (Quit: Quit)
+2018-07-17 23:03:30	←	jcarpenter2 (rofl@2601:441:8600:2259:d9da:799d:5566:1507) has quit (Quit: Leaving)
+2018-07-17 23:04:17	ms7821	oh yes, Amber "I don't need to understand how encryption works" Rudd
+2018-07-17 23:04:54	→	alip (~alip@tchaikovsky.exherbo.org) has joined ##crypto
+2018-07-17 23:05:18	←	alip (~alip@tchaikovsky.exherbo.org) has quit (Changing host)
+2018-07-17 23:05:18	→	alip (~alip@exherbo/developer/alip) has joined ##crypto
+2018-07-17 23:07:09	←	navidr (uid112413@gateway/web/irccloud.com/x-bbppxyqphaawxrep) has quit (Quit: Connection closed for inactivity)
+2018-07-17 23:07:21	←	SopaXorzTaker (~SopaXorzT@unaffiliated/sopaxorztaker) has quit (Read error: Connection reset by peer)
+2018-07-17 23:08:51	→	SopaXorzTaker (~SopaXorzT@unaffiliated/sopaxorztaker) has joined ##crypto
+2018-07-17 23:10:42	→	spanishsunrise (~none_____@unaffiliated/none/x-4223007) has joined ##crypto
+2018-07-17 23:11:31	←	adoua (~adoua@unaffiliated/adoua) has quit (Ping timeout: 256 seconds)
+2018-07-17 23:12:59	←	spanishsunrise (~none_____@unaffiliated/none/x-4223007) has quit (Client Quit)
+2018-07-17 23:15:05	←	mreznik (mreznik@nat/redhat/x-gbldopucctcfspmu) has quit (Quit: Leaving)
+2018-07-17 23:15:23	→	spanishsunrise (~none_____@unaffiliated/none/x-4223007) has joined ##crypto
+2018-07-17 23:15:37	←	coellobranco (~FoRcEr@49.10.165.83.dynamic.reverse-mundo-r.com) has quit (Read error: Connection reset by peer)
+2018-07-17 23:16:17	→	Adbray (~Adbray@172-222-034-231.dhcp.chtrptr.net) has joined ##crypto
+2018-07-17 23:16:30	←	Bonstra (~Bonstra@val.bonstra.fr.eu.org) has quit (Ping timeout: 256 seconds)
+2018-07-17 23:17:25	→	coellobranco (~FoRcEr@49.10.165.83.dynamic.reverse-mundo-r.com) has joined ##crypto
+2018-07-17 23:17:29	→	alem0lars (~alem0lars@host211-208-dynamic.49-82-r.retail.telecomitalia.it) has joined ##crypto
+2018-07-17 23:17:57	←	feigned (~son1dow@unaffiliated/son1dow) has quit (Read error: Connection reset by peer)
+2018-07-17 23:18:05	←	animtakhnet (~Randomnes@94.124.138.66) has quit (Quit: animtakhnet)
+2018-07-17 23:19:05	↪ 	Guest349 is now known as ApeDosMil
+2018-07-17 23:19:09	→	feigned (~son1dow@unaffiliated/son1dow) has joined ##crypto
+2018-07-17 23:19:36	↪ 	ApeDosMil is now known as Guest73053
+2018-07-17 23:20:01	←	coellobranco (~FoRcEr@49.10.165.83.dynamic.reverse-mundo-r.com) has quit (Remote host closed the connection)
+2018-07-17 23:21:37	←	spanishsunrise (~none_____@unaffiliated/none/x-4223007) has quit (Quit: Mutter: www.mutterirc.com)
+2018-07-17 23:22:09	←	hyperreal (~hyperreal@unaffiliated/serieux) has quit (Quit: ZNC 1.6.5+deb1 - http://znc.in)
+2018-07-17 23:25:24	←	Vonter (~Vonter@49.206.10.48) has quit (Quit: WeeChat 2.2)
+2018-07-17 23:25:49	→	Vonter (~Vonter@49.206.10.48) has joined ##crypto
+2018-07-17 23:26:00	→	prepend (~textual@198.246.100.83) has joined ##crypto
+2018-07-17 23:26:06	→	hyperreal (~hyperreal@unaffiliated/serieux) has joined ##crypto
+2018-07-17 23:26:11	→	al-damiri (uid142631@gateway/web/irccloud.com/x-qdrujklrhazdpuyd) has joined ##crypto
+2018-07-17 23:26:49	→	synthroi_ (synthroid@gateway/vpn/privateinternetaccess/synthroid) has joined ##crypto
+2018-07-17 23:29:10	←	thewaspsknees (~eddie@host31-53-134-66.range31-53.btcentralplus.com) has quit (Remote host closed the connection)
+2018-07-17 23:29:32	←	synthroid (~synthroid@50.202.5.122) has quit (Ping timeout: 256 seconds)
+2018-07-17 23:29:40	←	gogbog (~gogbog@94.26.61.245) has quit (Quit: Leaving)
+2018-07-17 23:31:41	←	sonOfRa (sonOfRa@unaffiliated/sonofra) has quit (Read error: Connection reset by peer)
+2018-07-17 23:32:19	→	thewaspsknees (~eddie@host31-53-134-66.range31-53.btcentralplus.com) has joined ##crypto
+2018-07-17 23:32:58	eightyeight	Riastradh: that's fine. some context would have been nice however
+2018-07-17 23:33:40	iz	yeah, makes more sense w/ context
+2018-07-17 23:34:36	→	sonOfRa (sonOfRa@unaffiliated/sonofra) has joined ##crypto
+2018-07-17 23:35:36	→	nahoskins (~nahoskins@85.255.234.62) has joined ##crypto
+2018-07-17 23:36:46	←	thewaspsknees (~eddie@host31-53-134-66.range31-53.btcentralplus.com) has quit (Ping timeout: 268 seconds)
+2018-07-17 23:39:02	→	synthroid (~synthroid@50.202.5.122) has joined ##crypto
+2018-07-17 23:41:05	←	nahoskins (~nahoskins@85.255.234.62) has quit (Ping timeout: 268 seconds)
+2018-07-17 23:41:53	mancha	feinstein is a genius. i loved it when scalia and breyer had to explain to her what the 14th amendment means.
+2018-07-17 23:42:19	←	synthroi_ (synthroid@gateway/vpn/privateinternetaccess/synthroid) has quit (Ping timeout: 268 seconds)
+2018-07-17 23:45:12	←	tavn (~tavn@2601:646:9401:e12b:78ec:bddd:81df:910e) has quit (Ping timeout: 276 seconds)
+2018-07-17 23:47:03	←	TheAdversary (~adversary@unaffiliated/hasimir/bot/theadversary) has quit (Ping timeout: 240 seconds)
+2018-07-17 23:47:07	→	stoopkid (uid137696@gateway/web/irccloud.com/x-yiuxswauzwdukexq) has joined ##crypto
+2018-07-17 23:47:24	→	coellobranco (~FoRcEr@49.10.165.83.dynamic.reverse-mundo-r.com) has joined ##crypto
+2018-07-17 23:48:21	Zarutian	mancha, eightyeight: I do not get why there is so much warrantless mass surveilence. Is it that hard for law enforcement to get apropos warrants or something?
+2018-07-17 23:48:22	←	Hasimir (~hfenring@unaffiliated/hasimir) has quit (Ping timeout: 240 seconds)
+2018-07-17 23:48:52	mancha	the justification is so they can go back in time
+2018-07-17 23:49:17	eightyeight	as a sysadmin who works for a small locally owned ISP, i can tell you that i see 10:1 subpoenas to judge-signed warrants
+2018-07-17 23:49:42	eightyeight	lawyers send us a subpeona, and overwhelmingly, unless our lawyer says otherwise, we decline it
+2018-07-17 23:49:46	mancha	say they nab a terrorist, who is plotting an attack, they get his cell phone. then they query their database of past connections and get his entire web of calls and go hunt down his terrorist cell.
+2018-07-17 23:49:53	eightyeight	i guess it really is that difficult
+2018-07-17 23:49:55	ms7821	mancha: when are you referring to? scalia generally dissented on gender discrimination
+2018-07-17 23:50:14	mancha	ms7821: https://www.youtube.com/watch?v=M-lMx7gI8ps
+2018-07-17 23:50:15	→	thewaspsknees (eddie@gateway/vpn/privateinternetaccess/thewaspsknees) has joined ##crypto
+2018-07-17 23:50:16	ms7821	so it's not so much what the amendment means, but how he took it
+2018-07-17 23:50:27	Zarutian	eightyeight: one guy who works at an ISP here tells me that they always require a warrant otherwise they would be liable in various ways.
+2018-07-17 23:50:42	eightyeight	exactly
+2018-07-17 23:50:45	ms7821	mancha: got a transcript? I don't watch videos at work
+2018-07-17 23:50:52	mancha	no
+2018-07-17 23:51:02	eightyeight	Zarutian: also, it's just the principle of the matter. the lawyers need to get off their lazy asses
+2018-07-17 23:51:08	mancha	eightyeight: do you every get national security letters?
+2018-07-17 23:51:48	eightyeight	https://xmission.com/transparency
+2018-07-17 23:51:54	Zarutian	mancha: most terror cells (if anyone has read any good spy books) do their comms via 'number station'-esque ads in classifieds
+2018-07-17 23:52:17	Peng_	I'm pretty sure most terror cells use Telegram
+2018-07-17 23:52:30	ms7821	mancha: is it this? https://www.aclu.org/blog/smart-justice/constitution-protects-women-despite-justice-scalias-views?redirect=blog/speakeasy/constitution-protects-women-despite-justice-scalias-views
+2018-07-17 23:52:35	mancha	i'm explaining the justification not defending it
+2018-07-17 23:52:38	Peng_	which is one reason they all get arrested and shot
+2018-07-17 23:53:14	Zarutian	mancha: yeah I know. Just the justification is realy ?specious?/?without-credibility?
+2018-07-17 23:53:37	mancha	Zarutian: they claim it's helped them prevent numerous attacks
+2018-07-17 23:53:53	Zarutian	eightyeight: might also be that there is no concept of "agent of the court" kind of thing here afaict
+2018-07-17 23:55:03	mancha	eightyeight: very interesting
+2018-07-17 23:55:10	mancha	an also commendable
+2018-07-17 23:55:19	→	cbot (~FS@ool-4351bb5a.dyn.optonline.net) has joined ##crypto
+2018-07-17 23:55:47	mancha	what fallout was there for refusing the doj national security letter in 2014? any?
+2018-07-17 23:56:41	eightyeight	nothing that i know of personally, but the owner may know more
+2018-07-17 23:57:01	Zarutian	mancha: I heard some companies just took up the policy of "burn before reading" and then deny any agents access as said agents didnt have any authorization to ask for such.
+2018-07-17 23:57:02	eightyeight	i don't recall anything specifically that happened though
+2018-07-17 23:57:23	←	unfld (~unfld@88.97.48.238) has quit (Quit: Lost terminal)
+2018-07-17 23:57:49	←	kajo (~kajo@2001:4c50:371d:8400:ca2a:14ff:fe0f:7dd1) has quit (Ping timeout: 240 seconds)
+2018-07-17 23:58:43	mancha	well, i think your company has a commendable transparency policy. many companies are scared to do something like that. they're even scared to confirm/deny that they've even gotten national security letters (nsl's technically require secrecy)
+2018-07-17 23:58:54	mancha	which is why warrant canaries became a thing
+2018-07-17 23:59:51	←	uZiel (~ircuser@gateway/tor-sasl/uziel) has quit (Ping timeout: 250 seconds)
+2018-07-17 23:59:52	Zarutian	mancha: how did the company 'recieve' any NSL if such get burned before any reading?
+2018-07-18 00:00:04	mancha	Zarutian: i don't know what you're talking about
+2018-07-18 00:00:27	ms7821	sounds like nonsense
+2018-07-18 00:00:27	Zarutian	mancha: sorry, thought you were addressing me.
+2018-07-18 00:03:23	↪ 	irc: disconnected from server
+2018-08-13 19:24:02	→	zorowk (~zorowk@117.136.53.75) has joined ##crypto
+2018-08-13 19:24:02	↪ 	Topic for ##crypto is "Welcome to ##crypto for cryptography theory and practice | To combat spam, you must register with NickServ to chat | Cryptocurrency without discussing cryptography is off-topic. Try ##altcoins | Resources: http://www.cacr.math.uwaterloo.ca/hac https://www.keylength.com | Ethics: http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf | See also https://reddit.com/r/crypto"
+2018-08-13 19:24:02	↪ 	Topic set by eightyeight (~eightyeig@oalug/member/eightyeight) on Wed, 08 Aug 2018 23:35:07
+2018-08-13 19:24:03	↪ 	Channel ##crypto: 691 nicks (1 op, 0 voices, 690 normals)
+2018-08-13 19:24:04	↪ 	Channel created on Sun, 26 Nov 2006 14:42:42
+2018-08-13 19:24:05	←	Guest70946 (~xx@lns-bzn-36-82-251-20-252.adsl.proxad.net) has quit (Quit: ZNC)
+2018-08-13 19:26:02	→	spear2 (~spear2@71-95-117-77.dhcp.mdfd.or.charter.com) has joined ##crypto
+2018-08-13 19:28:36	↪ 	re1 is now known as rsrx
+2018-08-13 19:30:55	→	Guest18475 (~xx@lns-bzn-36-82-251-20-252.adsl.proxad.net) has joined ##crypto
+2018-08-13 19:31:07	→	fakenerd (~fakenerd@ec2-13-231-172-122.ap-northeast-1.compute.amazonaws.com) has joined ##crypto
+2018-08-13 19:32:36	←	rsrx (~rsrx@cable-94-189-224-42.dynamic.sbb.rs) has quit (Read error: Connection reset by peer)
+2018-08-13 19:33:22	←	fakenerd_ (~fakenerd@ec2-13-231-172-122.ap-northeast-1.compute.amazonaws.com) has quit (Ping timeout: 240 seconds)
+2018-08-13 19:49:26	↪ 	irc: disconnected from server
+2018-08-15 16:36:19	→	zorowk (~zorowk@223.104.20.174) has joined ##crypto
+2018-08-15 16:36:19	↪ 	Topic for ##crypto is "Welcome to ##crypto for cryptography theory and practice | To combat spam, you must register with NickServ to chat | Cryptocurrency without discussing cryptography is off-topic. Try ##altcoins | Resources: http://www.cacr.math.uwaterloo.ca/hac https://www.keylength.com | Ethics: http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf | See also https://reddit.com/r/crypto"
+2018-08-15 16:36:19	↪ 	Topic set by eightyeight (~eightyeig@oalug/member/eightyeight) on Wed, 08 Aug 2018 23:35:07
+2018-08-15 16:36:20	↪ 	Channel ##crypto: 677 nicks (1 op, 0 voices, 676 normals)
+2018-08-15 16:36:20	↪ 	Channel created on Sun, 26 Nov 2006 14:42:42
+2018-08-15 16:37:15	←	jaequery (~textual@ip-173-140-155-0.kscymo.spcsdns.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2018-08-15 16:40:17	→	jsatk (~jesseatki@c-98-210-144-35.hsd1.ca.comcast.net) has joined ##crypto
+2018-08-15 16:45:25	←	jsatk (~jesseatki@c-98-210-144-35.hsd1.ca.comcast.net) has quit (Ping timeout: 272 seconds)
+2018-08-15 16:46:38	→	jan64 (~jan64@79.184.165.104.ipv4.supernova.orange.pl) has joined ##crypto
+2018-08-15 16:46:41	←	spinza (~spin@155.93.246.187) has quit (Ping timeout: 272 seconds)
+2018-08-15 16:46:58	←	arubi (~ese168@gateway/tor-sasl/ese168) has quit (Remote host closed the connection)
+2018-08-15 16:46:58	←	madage (~madage@gateway/tor-sasl/madage) has quit (Remote host closed the connection)
+2018-08-15 16:47:21	→	arubi (~ese168@gateway/tor-sasl/ese168) has joined ##crypto
+2018-08-15 16:51:10	→	srm (~srm@62.112.55.19) has joined ##crypto
+2018-08-15 16:51:11	←	srm (~srm@62.112.55.19) has quit (Changing host)
+2018-08-15 16:51:11	→	srm (~srm@unaffiliated/srm) has joined ##crypto
+2018-08-15 16:51:29	→	spinza (~spin@155.93.246.187) has joined ##crypto
+2018-08-15 16:52:15	→	madage (~madage@gateway/tor-sasl/madage) has joined ##crypto
+2018-08-15 17:02:18	←	kajo (~kajo@2001:4c50:371f:3600:ca2a:14ff:fe0f:7dd1) has quit (Quit: From my rotting body, flowers shall grow and I am in them and that is eternity. -- E. M.)
+2018-08-15 17:04:06	←	ashirase (~ashirase@modemcable098.166-22-96.mc.videotron.ca) has quit (Ping timeout: 256 seconds)
+2018-08-15 17:05:26	→	TripFandango (~trip@bzq-109-64-93-143.red.bezeqint.net) has joined ##crypto
+2018-08-15 17:05:38	→	ashirase (~ashirase@modemcable098.166-22-96.mc.videotron.ca) has joined ##crypto
+2018-08-15 17:16:26	→	lostgravity_ (sid136595@gateway/web/irccloud.com/x-dueudyplvcolfnkd) has joined ##crypto
+2018-08-15 17:17:03	→	pchiusano_ (sid94663@gateway/web/irccloud.com/x-sztoypbokcjrkypx) has joined ##crypto
+2018-08-15 17:17:07	←	uZiel (~ircuser@gateway/tor-sasl/uziel) has quit (Ping timeout: 250 seconds)
+2018-08-15 17:17:31	←	spal (~spal@pdpc/supporter/active/spal) has quit (Ping timeout: 268 seconds)
+2018-08-15 17:17:57	→	argentum_ (sid262031@gateway/web/irccloud.com/x-zbivspxbtuxqbtvf) has joined ##crypto
+2018-08-15 17:17:59	←	EmmyNoether (~EmmyNoeth@xn--ht-1ia18f.nonceword.org) has quit (Remote host closed the connection)
+2018-08-15 17:18:00	←	lostgravity (sid136595@gateway/web/irccloud.com/x-qwokdezhcpuisdmp) has quit (Read error: Connection reset by peer)
+2018-08-15 17:18:00	←	wosctlup (~wosid@unaffiliated/wosctlup) has quit (Ping timeout: 245 seconds)
+2018-08-15 17:18:00	←	argentum (sid262031@gateway/web/irccloud.com/x-seruekbquddyqdhe) has quit (Ping timeout: 245 seconds)
+2018-08-15 17:18:00	←	ErgoX__ (sid219675@gateway/web/irccloud.com/x-jnytvjjatwycwrdl) has quit (Ping timeout: 245 seconds)
+2018-08-15 17:18:00	←	pchiusano (sid94663@gateway/web/irccloud.com/x-pvglnvonckzoarfv) has quit (Read error: Connection reset by peer)
+2018-08-15 17:18:00	←	Lord_of_Life (Elite12246@gateway/shell/elitebnc/x-sqinqpcweyazvftq) has quit (Ping timeout: 245 seconds)
+2018-08-15 17:18:00	←	Farshid (Farshid@gateway/shell/elitebnc/x-aksfjgxytzpxrvwm) has quit (Ping timeout: 245 seconds)
+2018-08-15 17:18:00	↪ 	lostgravity_ is now known as lostgravity
+2018-08-15 17:18:02	↪ 	argentum_ is now known as argentum
+2018-08-15 17:18:27	→	EmmyNoether (~EmmyNoeth@xn--ht-1ia18f.nonceword.org) has joined ##crypto
+2018-08-15 17:18:37	→	ErgoX___ (sid219675@gateway/web/irccloud.com/x-xszdxsspktkxwtko) has joined ##crypto
+2018-08-15 17:18:38	→	wosctlup (~wosid@unaffiliated/wosctlup) has joined ##crypto
+2018-08-15 17:19:32	←	venb (~Thunderbi@115.113.156.2) has quit (Remote host closed the connection)
+2018-08-15 17:19:59	→	venb (~Thunderbi@115.113.156.2) has joined ##crypto
+2018-08-15 17:20:14	→	spal (~spal@pdpc/supporter/active/spal) has joined ##crypto
+2018-08-15 17:20:22	←	Trieste (~T@unaffiliated/trieste) has quit (Ping timeout: 240 seconds)
+2018-08-15 17:22:11	→	Farshid (Farshid@gateway/shell/elitebnc/x-sntkcziwefmvfwuj) has joined ##crypto
+2018-08-15 17:22:30	←	Alchemical (~al@unaffiliated/alchemical) has quit (Ping timeout: 240 seconds)
+2018-08-15 17:23:08	→	uZiel (~ircuser@gateway/tor-sasl/uziel) has joined ##crypto
+2018-08-15 17:23:46	→	Trieste (~T@unaffiliated/trieste) has joined ##crypto
+2018-08-15 17:24:26	→	Lord_of_Life (Elite12246@gateway/shell/elitebnc/x-fflzrzargfwxwlcr) has joined ##crypto
+2018-08-15 17:27:50	→	belcher_ (~belcher@unaffiliated/belcher) has joined ##crypto
+2018-08-15 17:30:18	→	z_fudge (~fudge@62.217.45.26) has joined ##crypto
+2018-08-15 17:32:42	→	Guyver2 (AdiIRC@guyver2.xs4all.nl) has joined ##crypto
+2018-08-15 17:32:54	←	chowmeined (~chowmeine@unaffiliated/chowmeined) has quit (Read error: Connection reset by peer)
+2018-08-15 17:34:38	→	Dev0n (~Dev0n@unaffiliated/dev0n) has joined ##crypto
+2018-08-15 17:45:05	←	amelliaa (~amelliaa@46.166.142.216) has quit (Quit: -)
+2018-08-15 17:47:52	←	z_fudge (~fudge@62.217.45.26) has quit (Ping timeout: 240 seconds)
+2018-08-15 17:51:19	→	MrHands11 (~MrHands@77.125.11.66) has joined ##crypto
+2018-08-15 17:55:03	→	Blaguvest (~blaguvest@unaffiliated/blaguvest) has joined ##crypto
+2018-08-15 17:55:39	←	MrHands11 (~MrHands@77.125.11.66) has quit (Remote host closed the connection)
+2018-08-15 17:56:11	→	bjelleklang (~c@wikipedia/Bjelleklang) has joined ##crypto
+2018-08-15 18:03:01	←	ua_ (~ua@unaffiliated/uniqanomaly) has quit (Ping timeout: 256 seconds)
+2018-08-15 18:06:29	←	X-Scale (~ARM@46.50.1.109) has quit (Ping timeout: 272 seconds)
+2018-08-15 18:10:41	→	ua (~ua@unaffiliated/uniqanomaly) has joined ##crypto
+2018-08-15 18:12:09	←	aborazmeh (~aborazmeh@unaffiliated/aborazmeh) has quit (Quit: Bye!)
+2018-08-15 18:13:26	→	Atque (~Atque@unaffiliated/atque) has joined ##crypto
+2018-08-15 18:24:11	zorowk	x
+2018-08-15 18:24:11	↪ 	##crypto: Cannot send to channel
+2018-08-15 18:24:27	↪ 	irc: disconnected from server
+2018-09-11 12:16:34	→	zorowk (~zorowk@58.48.131.36) has joined ##crypto
+2018-09-11 12:16:34	↪ 	Topic for ##crypto is "Welcome to ##crypto for cryptography theory and practice | To combat spam, you must register with NickServ to chat | Cryptocurrency without discussing cryptography is off-topic. Try ##altcoins | Resources: http://www.cacr.math.uwaterloo.ca/hac https://www.keylength.com | Ethics: http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf | See also https://reddit.com/r/crypto"
+2018-09-11 12:16:34	↪ 	Topic set by eightyeight (~eightyeig@oalug/member/eightyeight) on Wed, 08 Aug 2018 23:35:07
+2018-09-11 12:16:34	↪ 	Channel ##crypto: 656 nicks (1 op, 0 voices, 655 normals)
+2018-09-11 12:16:34	↪ 	Channel created on Sun, 26 Nov 2006 14:42:42
+2018-09-11 12:16:36	↪ 	irc: disconnected from server
+2018-09-11 12:17:08	→	zorowk (~zorowk@111.172.112.172) has joined ##crypto
+2018-09-11 12:17:08	↪ 	Topic for ##crypto is "Welcome to ##crypto for cryptography theory and practice | To combat spam, you must register with NickServ to chat | Cryptocurrency without discussing cryptography is off-topic. Try ##altcoins | Resources: http://www.cacr.math.uwaterloo.ca/hac https://www.keylength.com | Ethics: http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf | See also https://reddit.com/r/crypto"
+2018-09-11 12:17:08	↪ 	Topic set by eightyeight (~eightyeig@oalug/member/eightyeight) on Wed, 08 Aug 2018 23:35:07
+2018-09-11 12:17:08	↪ 	Channel ##crypto: 656 nicks (1 op, 0 voices, 655 normals)
+2018-09-11 12:17:09	↪ 	Channel created on Sun, 26 Nov 2006 14:42:42
+2018-09-11 12:17:48	→	tombusby (~tombusby@gateway/tor-sasl/tombusby) has joined ##crypto
+2018-09-11 12:18:26	→	MoarSpaceFi (~Forgot_my@65.126.126.193) has joined ##crypto
+2018-09-11 12:18:31	←	jsatk (~jesseatki@c-98-210-144-35.hsd1.ca.comcast.net) has quit (Ping timeout: 272 seconds)
+2018-09-11 12:21:19	←	phwalkr (~phwalkr@210-84-32-251.dyn.iinet.net.au) has quit (Remote host closed the connection)
+2018-09-11 12:21:48	→	phwalkr (~phwalkr@210-84-32-251.dyn.iinet.net.au) has joined ##crypto
+2018-09-11 12:26:13	←	phwalkr (~phwalkr@210-84-32-251.dyn.iinet.net.au) has quit (Ping timeout: 245 seconds)
+2018-09-11 12:29:02	→	phwalkr (~phwalkr@210-84-32-251.dyn.iinet.net.au) has joined ##crypto
+2018-09-11 12:29:40	→	jsatk (~jesseatki@c-98-210-144-35.hsd1.ca.comcast.net) has joined ##crypto
+2018-09-11 12:34:25	←	jsatk (~jesseatki@c-98-210-144-35.hsd1.ca.comcast.net) has quit (Ping timeout: 246 seconds)
+2018-09-11 12:34:53	←	The20YearIRCloud (uid38883@gateway/web/irccloud.com/x-qnhlhjkqhbnzqaew) has quit (Quit: Connection closed for inactivity)
+2018-09-11 12:41:07	→	jsatk (~jesseatki@c-98-210-144-35.hsd1.ca.comcast.net) has joined ##crypto
+2018-09-11 12:43:02	←	phwalkr (~phwalkr@210-84-32-251.dyn.iinet.net.au) has quit (Remote host closed the connection)
+2018-09-11 12:44:28	←	sec^nd (~second@gateway/tor-sasl/sec0nd) has quit (Ping timeout: 256 seconds)
+2018-09-11 12:44:40	→	sec^nd (~second@gateway/tor-sasl/sec0nd) has joined ##crypto
+2018-09-11 12:45:53	←	jsatk (~jesseatki@c-98-210-144-35.hsd1.ca.comcast.net) has quit (Ping timeout: 252 seconds)
+2018-09-11 12:48:32	→	jsatk (~jesseatki@c-98-210-144-35.hsd1.ca.comcast.net) has joined ##crypto
+2018-09-11 12:52:39	→	phwalkr (~phwalkr@210-84-32-251.dyn.iinet.net.au) has joined ##crypto
+2018-09-11 12:54:59	→	HeWhois (~WhoAmI@c-73-203-123-117.hsd1.co.comcast.net) has joined ##crypto
+2018-09-11 12:58:24	←	jsatk (~jesseatki@c-98-210-144-35.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2018-09-11 12:58:24	←	phwalkr (~phwalkr@210-84-32-251.dyn.iinet.net.au) has quit (Ping timeout: 272 seconds)
+2018-09-11 12:58:34	→	jsatk (~jesseatki@c-98-210-144-35.hsd1.ca.comcast.net) has joined ##crypto
+2018-09-11 13:02:16	←	tombusby (~tombusby@gateway/tor-sasl/tombusby) has quit (Remote host closed the connection)
+2018-09-11 13:02:56	←	jsatk (~jesseatki@c-98-210-144-35.hsd1.ca.comcast.net) has quit (Ping timeout: 244 seconds)
+2018-09-11 13:06:20	→	tombusby (~tombusby@gateway/tor-sasl/tombusby) has joined ##crypto
+2018-09-11 13:07:08	←	oplevunus (~oplevunus@gateway/tor-sasl/oplevunus) has quit (Ping timeout: 256 seconds)
+2018-09-11 13:13:04	←	Styil (Styil@gateway/vpn/privateinternetaccess/styil) has quit (Remote host closed the connection)
+2018-09-11 13:15:13	→	jsatk (~jesseatki@c-98-210-144-35.hsd1.ca.comcast.net) has joined ##crypto
+2018-09-11 13:16:36	→	udni (~Thunderbi@2a02:8109:9c80:3734:7db3:83db:49a7:b1b4) has joined ##crypto
+2018-09-11 13:19:53	←	jsatk (~jesseatki@c-98-210-144-35.hsd1.ca.comcast.net) has quit (Ping timeout: 245 seconds)
+2018-09-11 13:20:28	→	DougieBot5000_ (~DougieBot@unaffiliated/dougiebot5000) has joined ##crypto
+2018-09-11 13:23:50	←	DougieBot5000 (~DougieBot@unaffiliated/dougiebot5000) has quit (Ping timeout: 252 seconds)
+2018-09-11 13:24:51	→	jsatk (~jesseatki@c-98-210-144-35.hsd1.ca.comcast.net) has joined ##crypto
+2018-09-11 13:27:04	→	karel (~quassel@193.40.150.53) has joined ##crypto
+2018-09-11 13:27:05	←	karel (~quassel@193.40.150.53) has quit (Changing host)
+2018-09-11 13:27:05	→	karel (~quassel@unaffiliated/karel) has joined ##crypto
+2018-09-11 13:28:38	←	gyia (~jy@host86-151-100-215.range86-151.btcentralplus.com) has quit (Ping timeout: 245 seconds)
+2018-09-11 13:29:24	←	jsatk (~jesseatki@c-98-210-144-35.hsd1.ca.comcast.net) has quit (Ping timeout: 240 seconds)
+2018-09-11 13:33:53	←	cbot (~FS@ool-4351bb5a.dyn.optonline.net) has quit (Quit: Leaving)
+2018-09-11 13:38:10	↪ 	irc: disconnected from server
+2018-09-25 17:24:41	→	zorowk (~zorowk@111.175.162.154) has joined ##crypto
+2018-09-25 17:24:41	↪ 	Topic for ##crypto is "Welcome to ##crypto for cryptography theory and practice | To combat spam, you must register with NickServ to chat | Cryptocurrency without discussing cryptography is off-topic. Try ##altcoins | Resources: http://www.cacr.math.uwaterloo.ca/hac https://www.keylength.com | Ethics: http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf | See also https://reddit.com/r/crypto"
+2018-09-25 17:24:41	↪ 	Topic set by eightyeight (~eightyeig@oalug/member/eightyeight) on Wed, 08 Aug 2018 23:35:07
+2018-09-25 17:24:41	↪ 	Channel ##crypto: 659 nicks (1 op, 0 voices, 658 normals)
+2018-09-25 17:24:41	↪ 	Channel created on Sun, 26 Nov 2006 14:42:42
+2018-09-25 17:25:25	→	sjms22 (~sjms@183.157.169.248) has joined ##crypto
+2018-09-25 17:25:44	↪ 	irc: disconnected from server
+2019-01-18 22:14:58	→	zorowk (~zorowk@117.154.115.83) has joined ##crypto
+2019-01-18 22:15:01	↪ 	Topic for ##crypto is "Welcome to ##crypto for cryptography theory and practice | To combat spam, you must register with NickServ to chat | Cryptocurrency without discussing cryptography is off-topic. Try ##altcoins | Resources: http://www.cacr.math.uwaterloo.ca/hac https://www.keylength.com | Ethics: http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf | See also https://reddit.com/r/crypto"
+2019-01-18 22:15:01	↪ 	Topic set by eightyeight (~eightyeig@oalug/member/eightyeight) on Wed, 08 Aug 2018 23:35:07
+2019-01-18 22:15:01	↪ 	Channel ##crypto: 609 nicks (1 op, 0 voices, 608 normals)
+2019-01-18 22:15:02	↪ 	Channel created on Sun, 26 Nov 2006 14:42:42
+2019-01-18 22:18:00	→	btop (~btop@c-73-71-169-178.hsd1.ca.comcast.net) has joined ##crypto
+2019-01-18 22:18:24	→	siddhartharao17 (~siddharth@116.72.189.79) has joined ##crypto
+2019-01-18 22:18:25	←	GvP (~GvP@ip70-162-85-176.ph.ph.cox.net) has quit (Quit: Going offline, see ya! (www.adiirc.com))
+2019-01-18 22:18:25	←	siddhartharao17 (~siddharth@116.72.189.79) has quit (Remote host closed the connection)
+2019-01-18 22:19:09	→	siddhartharao17 (~siddharth@2001:420:c0e0:1008::258) has joined ##crypto
+2019-01-18 22:23:15	←	btop (~btop@c-73-71-169-178.hsd1.ca.comcast.net) has quit (Ping timeout: 245 seconds)
+2019-01-18 22:23:43	←	siddhartharao17 (~siddharth@2001:420:c0e0:1008::258) has quit (Ping timeout: 250 seconds)
+2019-01-18 22:24:45	↪ 	Guest47743 is now known as ApeDosMil
+2019-01-18 22:25:15	↪ 	ApeDosMil is now known as Guest63505
+2019-01-18 22:27:45	→	byte_skeptical (~amnesia@pool-108-44-199-200.clppva.fios.verizon.net) has joined ##crypto
+2019-01-18 22:30:07	→	spanishsunrise (~none_____@unaffiliated/none/x-4223007) has joined ##crypto
+2019-01-18 22:34:45	→	Guyver2 (AdiIRC@guyver2.xs4all.nl) has joined ##crypto
+2019-01-18 22:37:58	←	him-cesjf (~cesjf@unaffiliated/himcesjf) has quit (Ping timeout: 240 seconds)
+2019-01-18 22:39:36	→	feigned (~son1dow@unaffiliated/son1dow) has joined ##crypto
+2019-01-18 22:40:23	←	opsec (~opsec@opsec/opsec) has quit (Read error: Connection timed out)
+2019-01-18 22:40:30	←	vsy (~yano@freenode/staff-emeritus/yano) has quit (Quit: WeeChat, The Better IRC Client, https://weechat.org/)
+2019-01-18 22:41:19	→	opsec (~opsec@opsec/opsec) has joined ##crypto
+2019-01-18 22:42:44	→	Time-Warp (~f0xy@mirbsd/fan/time-warp) has joined ##crypto
+2019-01-18 22:44:59	→	vsy (~yano@freenode/staff-emeritus/yano) has joined ##crypto
+2019-01-18 22:48:12	←	spanishsunrise (~none_____@unaffiliated/none/x-4223007) has quit (Remote host closed the connection)
+2019-01-18 22:50:23	←	Tazmain (~Tazmain@unaffiliated/tazmain) has quit (Remote host closed the connection)
+2019-01-18 22:51:08	←	byte_skeptical (~amnesia@pool-108-44-199-200.clppva.fios.verizon.net) has quit (Ping timeout: 272 seconds)
+2019-01-18 22:52:08	→	him-cesjf (~cesjf@unaffiliated/himcesjf) has joined ##crypto
+2019-01-18 22:52:29	←	rafalcpp (~racalcppp@84-10-11-234.static.chello.pl) has quit (Read error: Connection reset by peer)
+2019-01-18 22:52:57	→	siddhartharao17 (~siddharth@2001:420:c0e0:1001::168) has joined ##crypto
+2019-01-18 23:02:22	→	srm1 (~srm@213.208.220.4) has joined ##crypto
+2019-01-18 23:02:29	→	spanishsunrise (~none_____@unaffiliated/none/x-4223007) has joined ##crypto
+2019-01-18 23:02:44	→	rafalcpp (~racalcppp@84-10-11-234.static.chello.pl) has joined ##crypto
+2019-01-18 23:05:37	→	byte_skeptical (~amnesia@pool-108-44-199-200.clppva.fios.verizon.net) has joined ##crypto
+2019-01-18 23:05:39	←	opsec (~opsec@opsec/opsec) has quit (Read error: Connection timed out)
+2019-01-18 23:06:08	←	srm (~srm@unaffiliated/srm) has quit (Ping timeout: 250 seconds)
+2019-01-18 23:06:19	→	opsec (~opsec@opsec/opsec) has joined ##crypto
+2019-01-18 23:08:12	Riastradh	MacGyver: Mostly paranoia, because the construction wasn't designed to work that way.
+2019-01-18 23:08:32	Riastradh	...and it turns out not to work when length extension is relevant.
+2019-01-18 23:08:32	←	savolla (~savolla@95.10.236.161) has quit (Quit: WeeChat 2.3)
+2019-01-18 23:08:41	←	siddhartharao17 (~siddharth@2001:420:c0e0:1001::168) has quit (Remote host closed the connection)
+2019-01-18 23:09:32	→	siddhartharao17 (~siddharth@72.163.220.13) has joined ##crypto
+2019-01-18 23:11:16	→	machinedgod (~machinedg@207.107.69.53) has joined ##crypto
+2019-01-18 23:13:48	←	siddhartharao17 (~siddharth@72.163.220.13) has quit (Ping timeout: 246 seconds)
+2019-01-18 23:16:33	←	spanishsunrise (~none_____@unaffiliated/none/x-4223007) has quit (Remote host closed the connection)
+2019-01-18 23:16:51	←	him-cesjf (~cesjf@unaffiliated/himcesjf) has quit (Remote host closed the connection)
+2019-01-18 23:17:17	→	him-cesjf (~cesjf@unaffiliated/himcesjf) has joined ##crypto
+2019-01-18 23:17:18	←	mischat_ (~mischat@78-32-137-134.static.enta.net) has quit (Read error: Connection reset by peer)
+2019-01-18 23:19:02	→	btop (~btop@c-73-71-169-178.hsd1.ca.comcast.net) has joined ##crypto
+2019-01-18 23:19:38	←	jhaj (~jhaj@193.108.177.207.dyn.southslope.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2019-01-18 23:20:55	→	kajo (~kajo@eduroam-24-163.eduroam.ruhr-uni-bochum.de) has joined ##crypto
+2019-01-18 23:21:48	→	mischat (~mischat@78-32-137-134.static.enta.net) has joined ##crypto
+2019-01-18 23:22:20	→	siddhartharao17 (~siddharth@72.163.220.13) has joined ##crypto
+2019-01-18 23:24:11	←	Time-Warp (~f0xy@mirbsd/fan/time-warp) has quit (Quit: We Are Legion)
+2019-01-18 23:24:35	←	btop (~btop@c-73-71-169-178.hsd1.ca.comcast.net) has quit (Ping timeout: 268 seconds)
+2019-01-18 23:25:00	←	byte_skeptical (~amnesia@pool-108-44-199-200.clppva.fios.verizon.net) has quit (Ping timeout: 246 seconds)
+2019-01-18 23:25:17	←	machinedgod (~machinedg@207.107.69.53) has quit (Quit: leaving)
+2019-01-18 23:26:45	↪ 	Guest63505 is now known as ApeDosMil
+2019-01-18 23:27:16	↪ 	ApeDosMil is now known as Guest19163
+2019-01-18 23:28:04	←	siddhartharao17 (~siddharth@72.163.220.13) has quit (Read error: Connection reset by peer)
+2019-01-18 23:29:04	→	machinedgod (~machinedg@207.107.69.53) has joined ##crypto
+2019-01-18 23:31:53	↪ 	irc: disconnected from server
+2019-01-21 19:40:45	→	zorowk (~zorowk@117.154.80.73) has joined ##crypto
+2019-01-21 19:40:45	↪ 	Topic for ##crypto is "Welcome to ##crypto for cryptography theory and practice | To combat spam, you must register with NickServ to chat | Cryptocurrency without discussing cryptography is off-topic. Try ##altcoins | Resources: http://www.cacr.math.uwaterloo.ca/hac https://www.keylength.com | Ethics: http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf | See also https://reddit.com/r/crypto"
+2019-01-21 19:40:45	↪ 	Topic set by eightyeight (~eightyeig@oalug/member/eightyeight) on Wed, 08 Aug 2018 23:35:07
+2019-01-21 19:40:45	↪ 	Channel ##crypto: 600 nicks (1 op, 0 voices, 599 normals)
+2019-01-21 19:40:45	↪ 	Channel created on Sun, 26 Nov 2006 14:42:42
+2019-01-21 19:43:27	←	spanishsunrise (~none_____@unaffiliated/none/x-4223007) has quit (Quit: Mutter: www.mutterirc.com)
+2019-01-21 19:44:57	→	spanishsunrise (~none_____@unaffiliated/none/x-4223007) has joined ##crypto
+2019-01-21 19:45:49	↪ 	Guest39611 is now known as ApeDosMil
+2019-01-21 19:46:24	↪ 	ApeDosMil is now known as Guest10533
+2019-01-21 19:46:56	→	mischat (~mischat@78-32-137-134.static.enta.net) has joined ##crypto
+2019-01-21 19:48:01	→	jan64 (~jan64@79.191.166.154.ipv4.supernova.orange.pl) has joined ##crypto
+2019-01-21 19:49:05	←	spanishsunrise (~none_____@unaffiliated/none/x-4223007) has quit (Client Quit)
+2019-01-21 19:49:53	→	spanishsunrise (~none_____@unaffiliated/none/x-4223007) has joined ##crypto
+2019-01-21 19:58:28	←	Kryczek (~kryczek@about/security/staff/Kryczek) has quit (Ping timeout: 244 seconds)
+2019-01-21 19:58:55	←	spanishsunrise (~none_____@unaffiliated/none/x-4223007) has quit (Quit: Mutter: www.mutterirc.com)
+2019-01-21 19:59:55	→	Kryczek (~kryczek@about/security/staff/Kryczek) has joined ##crypto
+2019-01-21 20:02:21	→	linelevel (~linelevel@unaffiliated/linelevel) has joined ##crypto
+2019-01-21 20:06:37	←	linelevel (~linelevel@unaffiliated/linelevel) has quit (Ping timeout: 250 seconds)
+2019-01-21 20:08:02	←	tjbp (~tom@2001:4b98:dc0:51:216:3eff:fe8a:81c5) has quit (Read error: Connection reset by peer)
+2019-01-21 20:09:21	→	tjbp (~tom@2001:4b98:dc0:51:216:3eff:fe8a:81c5) has joined ##crypto
+2019-01-21 20:16:44	→	kish` (~oracle@unaffiliated/oracle) has joined ##crypto
+2019-01-21 20:36:16	←	SynSynack (~Thunderbi@198-48-206-232.cpe.pppoe.ca) has quit (Quit: Не разучиться мечтать... любить...)
+2019-01-21 20:37:18	→	rsrx (~rsrx@mx-ll-183.89.36-39.dynamic.3bb.co.th) has joined ##crypto
+2019-01-21 20:42:47	→	jhaj (~jhaj@193.108.177.207.dyn.southslope.net) has joined ##crypto
+2019-01-21 20:46:50	↪ 	Guest10533 is now known as ApeDosMil
+2019-01-21 20:47:21	↪ 	ApeDosMil is now known as Guest79404
+2019-01-21 20:50:50	→	spanishsunrise (~none_____@unaffiliated/none/x-4223007) has joined ##crypto
+2019-01-21 20:52:32	→	byte_skeptical (~amnesia@pool-108-44-199-200.clppva.fios.verizon.net) has joined ##crypto
+2019-01-21 20:55:09	←	Tazmain (~Tazmain@unaffiliated/tazmain) has quit (Remote host closed the connection)
+2019-01-21 21:00:37	←	spanishsunrise (~none_____@unaffiliated/none/x-4223007) has quit (Ping timeout: 246 seconds)
+2019-01-21 21:05:23	→	spanishsunrise (~none_____@unaffiliated/none/x-4223007) has joined ##crypto
+2019-01-21 21:07:27	←	Kryczek (~kryczek@about/security/staff/Kryczek) has quit (Ping timeout: 268 seconds)
+2019-01-21 21:08:49	→	aborazmeh (~aborazmeh@85.100.151.14) has joined ##crypto
+2019-01-21 21:08:50	←	aborazmeh (~aborazmeh@85.100.151.14) has quit (Changing host)
+2019-01-21 21:08:50	→	aborazmeh (~aborazmeh@unaffiliated/aborazmeh) has joined ##crypto
+2019-01-21 21:10:15	→	Kryczek (~kryczek@about/security/staff/Kryczek) has joined ##crypto
+2019-01-21 21:11:28	←	spanishsunrise (~none_____@unaffiliated/none/x-4223007) has quit (Remote host closed the connection)
+2019-01-21 21:15:08	→	snake2k (snake2k@gateway/vpn/privateinternetaccess/snake2k) has joined ##crypto
+2019-01-21 21:17:25	←	HumanGeek (~HumanG33k@62.147.242.8) has quit (Ping timeout: 246 seconds)
+2019-01-21 21:19:05	Soni	does HTTPS protect against replay attacks?
+2019-01-21 21:20:06	→	Guyver2 (AdiIRC@guyver2.xs4all.nl) has joined ##crypto
+2019-01-21 21:20:43	Wulf	Soni: no. TLS usually does (exception TLS 1.3 0RTT), or the applications needs to.
+2019-01-21 21:21:16	←	zalupik (~zilberio@static.113.142.201.138.clients.your-server.de) has quit (Ping timeout: 246 seconds)
+2019-01-21 21:22:19	Soni	okay, so TLS protects against replay attacks? so as long as nothing intercepts the unencrypted HTTP I generally don't need my own replay protection?
+2019-01-21 21:22:50	Wulf	Soni: yep.
+2019-01-21 21:22:56	→	HumanGeek (~HumanG33k@62.147.242.8) has joined ##crypto
+2019-01-21 21:23:05	Soni	ah, cool
+2019-01-21 21:23:08	Wulf	Soni: if you design your http application, make sure that GET/HEAD are read-only.
+2019-01-21 21:23:17	→	feigned (~son1dow@unaffiliated/son1dow) has joined ##crypto
+2019-01-21 21:23:36	Soni	uh, why would I make GET/HEAD not read-only???
+2019-01-21 21:23:43	Soni	(or anyone?)
+2019-01-21 21:23:48	Wulf	it happens a lot.
+2019-01-21 21:24:38	Wulf	e.g. you could trigger an action by clicking a link. It's easier to implement that e.g. an html form.
+2019-01-21 21:24:54	→	Time-Warp (~f0xy@mirbsd/fan/time-warp) has joined ##crypto
+2019-01-21 21:30:02	←	Time-Warp (~f0xy@mirbsd/fan/time-warp) has quit (Quit: We Are Legion)
+2019-01-21 21:30:21	→	Time-Warp (~f0xy@mirbsd/fan/time-warp) has joined ##crypto
+2019-01-21 21:32:38	←	HumanGeek (~HumanG33k@62.147.242.8) has quit (Ping timeout: 268 seconds)
+2019-01-21 21:35:13	→	spanishsunrise (~none_____@unaffiliated/none/x-4223007) has joined ##crypto
+2019-01-21 21:41:10	←	mischat (~mischat@78-32-137-134.static.enta.net) has quit (Remote host closed the connection)
+2019-01-21 21:41:34	→	mischat (~mischat@78-32-137-134.static.enta.net) has joined ##crypto
+2019-01-21 21:42:26	←	mischat (~mischat@78-32-137-134.static.enta.net) has quit (Remote host closed the connection)
+2019-01-21 21:43:04	→	mischat (~mischat@78-32-137-134.static.enta.net) has joined ##crypto
+2019-01-21 21:44:44	→	mischat_ (~mischat@78-32-137-134.static.enta.net) has joined ##crypto
+2019-01-21 21:47:50	↪ 	Guest79404 is now known as ApeDosMil
+2019-01-21 21:48:20	↪ 	ApeDosMil is now known as Guest64584
+2019-01-21 21:48:46	←	mischat (~mischat@78-32-137-134.static.enta.net) has quit (Ping timeout: 268 seconds)
+2019-01-21 21:51:49	→	mischat (~mischat@78-32-137-134.static.enta.net) has joined ##crypto
+2019-01-21 21:52:13	→	udni1 (~Thunderbi@p200300C0DF2E1670A739B6ED36B20C7F.dip0.t-ipconnect.de) has joined ##crypto
+2019-01-21 21:52:22	←	udni (~Thunderbi@p200300C0DF2E16697491C5BC6D07575F.dip0.t-ipconnect.de) has quit (Ping timeout: 268 seconds)
+2019-01-21 21:52:22	↪ 	udni1 is now known as udni
+2019-01-21 21:54:45	←	mischat_ (~mischat@78-32-137-134.static.enta.net) has quit (Ping timeout: 246 seconds)
+2019-01-21 21:57:42	→	The20YearIRCloud (uid38883@gateway/web/irccloud.com/x-hqqjyhybrsgyuxwq) has joined ##crypto
+2019-01-21 22:00:40	→	mreznik_ (mreznik@nat/redhat/x-hxuldnnplkugjobs) has joined ##crypto
+2019-01-21 22:02:16	←	spanishsunrise (~none_____@unaffiliated/none/x-4223007) has quit (Ping timeout: 272 seconds)
+2019-01-21 22:03:34	←	mreznik (mreznik@nat/redhat/x-xblioxkywriiziue) has quit (Ping timeout: 268 seconds)
+2019-01-21 22:04:09	←	aborazmeh (~aborazmeh@unaffiliated/aborazmeh) has quit (Quit: Bye!)
+2019-01-21 22:08:38	←	rsrx (~rsrx@mx-ll-183.89.36-39.dynamic.3bb.co.th) has quit (Ping timeout: 240 seconds)
+2019-01-21 22:26:08	←	mischat (~mischat@78-32-137-134.static.enta.net) has quit (Remote host closed the connection)
+2019-01-21 22:26:45	→	mischat (~mischat@78-32-137-134.static.enta.net) has joined ##crypto
+2019-01-21 22:30:46	←	rafael (~ok@unaffiliated/rafael-cunha/x-5167236) has quit (Remote host closed the connection)
+2019-01-21 22:32:36	→	hehehe (uid219408@gateway/web/irccloud.com/x-pxapqvnmmetipknk) has joined ##crypto
+2019-01-21 22:32:37	→	spanishsunrise (~none_____@unaffiliated/none/x-4223007) has joined ##crypto
+2019-01-21 22:35:19	←	byte_skeptical (~amnesia@pool-108-44-199-200.clppva.fios.verizon.net) has quit (Ping timeout: 245 seconds)
+2019-01-21 22:35:54	←	spanishsunrise (~none_____@unaffiliated/none/x-4223007) has quit (Client Quit)
+2019-01-21 22:36:59	←	fightthewalrus (~user@KD113148015228.ppp-bb.dion.ne.jp) has quit (Ping timeout: 245 seconds)
+2019-01-21 22:39:49	←	bytefire (~bytefire@unaffiliated/bytefire) has quit (Quit: leaving)
+2019-01-21 22:40:02	→	Tazmain (~Tazmain@unaffiliated/tazmain) has joined ##crypto
+2019-01-21 22:43:24	→	VarunAgw (~VarunAgw@unaffiliated/varunagw) has joined ##crypto
+2019-01-21 22:43:33	→	Lord_of_Life_ (~Lord@unaffiliated/lord-of-life/x-0885362) has joined ##crypto
+2019-01-21 22:45:57	←	buirg (~buirg@178.128.75.133) has quit (Remote host closed the connection)
+2019-01-21 22:46:05	←	Lord_of_Life (~Lord@unaffiliated/lord-of-life/x-0885362) has quit (Ping timeout: 250 seconds)
+2019-01-21 22:46:06	←	VarunAgw_ (~VarunAgw@unaffiliated/varunagw) has quit (Ping timeout: 250 seconds)
+2019-01-21 22:46:07	↪ 	Lord_of_Life_ is now known as Lord_of_Life
+2019-01-21 22:46:12	→	Amis (~amis@pdpc/supporter/active/amis) has joined ##crypto
+2019-01-21 22:46:24	→	buirg (~buirg@178.128.75.133) has joined ##crypto
+2019-01-21 22:47:53	→	HumanG33k (~HumanG33k@62.147.242.8) has joined ##crypto
+2019-01-21 22:48:50	↪ 	Guest64584 is now known as ApeDosMil
+2019-01-21 22:49:20	↪ 	ApeDosMil is now known as Guest19347
+2019-01-21 23:00:38	←	kish` (~oracle@unaffiliated/oracle) has quit (Ping timeout: 240 seconds)
+2019-01-21 23:02:44	←	bumbleVole (~bumbleVol@unaffiliated/bumblevole) has quit (Quit: quit)
+2019-01-21 23:05:13	←	kajo (~kajo@2001:4c50:371d:dc00:ca2a:14ff:fe0f:7dd1) has quit (Ping timeout: 250 seconds)
+2019-01-21 23:06:00	←	snake2k (snake2k@gateway/vpn/privateinternetaccess/snake2k) has quit (Quit: WeeChat 2.3)
+2019-01-21 23:07:40	←	karel (~quassel@unaffiliated/karel) has quit (Quit: bye bye)
+2019-01-21 23:08:24	→	machinedgod (~machinedg@207.107.69.53) has joined ##crypto
+2019-01-21 23:14:55	←	siddhartharao17 (~siddharth@2601:647:4480:ac30:78eb:297a:c33d:a2eb) has quit (Ping timeout: 264 seconds)
+2019-01-21 23:17:32	←	Tazmain (~Tazmain@unaffiliated/tazmain) has quit (Remote host closed the connection)
+2019-01-21 23:17:43	←	mreznik_ (mreznik@nat/redhat/x-hxuldnnplkugjobs) has quit (Ping timeout: 250 seconds)
+2019-01-21 23:21:11	←	savolla (~savolla@78.189.143.174) has quit (Ping timeout: 250 seconds)
+2019-01-21 23:23:11	→	renlord (~ry@unaffiliated/renlord) has joined ##crypto
+2019-01-21 23:27:36	→	mreznik (mreznik@nat/redhat/x-evcqwxsmkisqrlun) has joined ##crypto
+2019-01-21 23:30:29	→	hRedBeard (~hRedBeard@gateway/tor-sasl/hrb) has joined ##crypto
+2019-01-21 23:31:01	→	byte_skeptical (~amnesia@38.90.141.210) has joined ##crypto
+2019-01-21 23:31:40	←	byte_skeptical (~amnesia@38.90.141.210) has quit (Client Quit)
+2019-01-21 23:37:31	←	RedSnarf (~RedSnarf@unaffiliated/redsnarf) has quit (Ping timeout: 252 seconds)
+2019-01-21 23:39:28	→	mistergold (~mistergol@77.243.30.20) has joined ##crypto
+2019-01-21 23:45:10	→	byte_skeptical (~amnesia@38.90.141.210) has joined ##crypto
+2019-01-21 23:45:19	←	justan0theruser (~justanoth@unaffiliated/justanotheruser) has quit (Ping timeout: 268 seconds)
+2019-01-21 23:48:22	←	blaguvest (~pi@unaffiliated/blaguvest) has quit (Remote host closed the connection)
+2019-01-21 23:49:39	→	blaguvest (~pi@185.212.171.216) has joined ##crypto
+2019-01-21 23:49:52	←	blaguvest (~pi@185.212.171.216) has quit (Remote host closed the connection)
+2019-01-21 23:50:17	→	blaguvest (~pi@185.212.171.216) has joined ##crypto
+2019-01-21 23:50:50	↪ 	Guest19347 is now known as ApeDosMil
+2019-01-21 23:51:20	↪ 	ApeDosMil is now known as Guest80055
+2019-01-21 23:59:38	→	spanishsunrise (~none_____@unaffiliated/none/x-4223007) has joined ##crypto
+2019-01-22 00:02:09	←	painted (~fainted@gateway/tor-sasl/painted) has quit (Quit: ...)
+2019-01-22 00:04:07	→	justan0theruser (~justanoth@unaffiliated/justanotheruser) has joined ##crypto
+2019-01-22 00:05:58	←	spanishsunrise (~none_____@unaffiliated/none/x-4223007) has quit (Quit: Mutter: www.mutterirc.com)
+2019-01-22 00:06:09	→	mindchains (~mindchain@host213-133-static.27-87-b.business.telecomitalia.it) has joined ##crypto
+2019-01-22 00:07:18	←	mindchains (~mindchain@host213-133-static.27-87-b.business.telecomitalia.it) has quit (Client Quit)
+2019-01-22 00:08:29	←	Vonter (~Vonter@49.206.10.124) has quit (Ping timeout: 250 seconds)
+2019-01-22 00:09:00	→	mischat_ (~mischat@78-32-137-134.static.enta.net) has joined ##crypto
+2019-01-22 00:09:06	Riastradh	snappy: Cool, hope you're finding it useful!
+2019-01-22 00:11:55	←	Haohmaru (~Haohmaru@195.24.53.110) has quit
+2019-01-22 00:11:56	→	kish` (~oracle@unaffiliated/oracle) has joined ##crypto
+2019-01-22 00:11:59	←	mischat (~mischat@78-32-137-134.static.enta.net) has quit (Ping timeout: 245 seconds)
+2019-01-22 00:12:25	→	srm (~srm@213.208.220.4) has joined ##crypto
+2019-01-22 00:12:25	←	srm (~srm@213.208.220.4) has quit (Changing host)
+2019-01-22 00:12:25	→	srm (~srm@unaffiliated/srm) has joined ##crypto
+2019-01-22 00:13:49	←	mischat_ (~mischat@78-32-137-134.static.enta.net) has quit (Ping timeout: 246 seconds)
+2019-01-22 00:14:56	←	jhaj (~jhaj@193.108.177.207.dyn.southslope.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2019-01-22 00:14:57	→	srm2 (~srm@213.208.220.4) has joined ##crypto
+2019-01-22 00:15:18	←	srm1 (~srm@213.208.220.4) has quit (Ping timeout: 240 seconds)
+2019-01-22 00:16:51	←	srm (~srm@unaffiliated/srm) has quit (Ping timeout: 246 seconds)
+2019-01-22 00:17:43	←	degville (degville@2604:180::7628:471d) has quit (Ping timeout: 252 seconds)
+2019-01-22 00:18:31	←	srm2 (~srm@213.208.220.4) has quit (Client Quit)
+2019-01-22 00:24:56	←	spinza (~spin@155.93.246.187) has quit (Quit: Coyote finally caught up with me...)
+2019-01-22 00:28:30	→	wizardedit (~evidentkn@100.42.103.4) has joined ##crypto
+2019-01-22 00:28:30	←	wizardedit (~evidentkn@100.42.103.4) has quit (Changing host)
+2019-01-22 00:28:30	→	wizardedit (~evidentkn@gentoo/developer/wizardedit) has joined ##crypto
+2019-01-22 00:28:45	→	degville (~degville@192.73.239.21) has joined ##crypto
+2019-01-22 00:32:26	→	spinza (~spin@155.93.246.187) has joined ##crypto
+2019-01-22 00:36:54	→	Vonter (~Vonter@49.206.15.55) has joined ##crypto
+2019-01-22 00:37:19	←	Vonter (~Vonter@49.206.15.55) has quit (Max SendQ exceeded)
+2019-01-22 00:38:34	→	Vonter (~Vonter@49.206.15.55) has joined ##crypto
+2019-01-22 00:42:47	←	kish` (~oracle@unaffiliated/oracle) has quit (Quit: Leaving)
+2019-01-22 00:44:38	→	lilabsence (~RizzoTheR@host-091-097-061-182.ewe-ip-backbone.de) has joined ##crypto
+2019-01-22 00:47:20	→	kish` (~oracle@unaffiliated/oracle) has joined ##crypto
+2019-01-22 00:49:44	←	sleddog (1000@ip24-252-124-60.no.no.cox.net) has quit (Quit: Leaving)
+2019-01-22 00:49:49	←	khubo (Elite21216@gateway/shell/elitebnc/x-ekcnnppnhgnydvcr) has quit (Quit: EliteBNC - http://elitebnc.org (Auto-Removal: idle account/not being used))
+2019-01-22 00:51:50	↪ 	Guest80055 is now known as ApeDosMil
+2019-01-22 21:53:03	↪ 	irc: disconnected from server
+2019-03-15 09:22:03	→	zorowk (~zorowk@221.234.226.24) has joined ##crypto
+2019-03-15 09:22:03	↪ 	Topic for ##crypto is "Welcome to ##crypto for cryptography theory and practice | To combat spam, you must register with NickServ to chat | Cryptocurrency without discussing cryptography is off-topic. Try ##altcoins | Resources: http://www.cacr.math.uwaterloo.ca/hac https://www.keylength.com | Ethics: http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf | See also https://reddit.com/r/crypto"
+2019-03-15 09:22:03	↪ 	Topic set by eightyeight (~eightyeig@oalug/member/eightyeight) on Wed, 08 Aug 2018 23:35:07
+2019-03-15 09:22:03	↪ 	Channel ##crypto: 593 nicks (1 op, 0 voices, 592 normals)
+2019-03-15 09:22:04	↪ 	Channel created on Sun, 26 Nov 2006 14:42:42
+2019-03-15 09:22:25	↪ 	irc: disconnected from server
+2019-04-11 16:14:44	→	zorowk (~zorowk@219.140.119.180) has joined ##crypto
+2019-04-11 16:14:44	↪ 	Topic for ##crypto is "Welcome to ##crypto for cryptography theory and practice | To combat spam, you must register with NickServ to chat | Cryptocurrency without discussing cryptography is off-topic. Try ##altcoins | Resources: http://www.cacr.math.uwaterloo.ca/hac https://www.keylength.com | Ethics: http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf | See also https://reddit.com/r/crypto"
+2019-04-11 16:14:44	↪ 	Topic set by eightyeight (~eightyeig@oalug/member/eightyeight) on Wed, 08 Aug 2018 23:35:07
+2019-04-11 16:14:44	↪ 	Channel ##crypto: 590 nicks (1 op, 0 voices, 589 normals)
+2019-04-11 16:14:45	↪ 	Channel created on Sun, 26 Nov 2006 14:42:42
+2019-04-11 16:15:15	↪ 	irc: disconnected from server
+2019-07-08 16:22:29	→	zorowk (~zorowk@111.172.8.12) has joined ##crypto
+2019-07-08 16:22:29	↪ 	Topic for ##crypto is "Welcome to ##crypto for cryptography theory and practice | To combat spam, you must register with NickServ to chat | Cryptocurrency without discussing cryptography is off-topic. Try ##altcoins | Resources: http://www.cacr.math.uwaterloo.ca/hac https://www.keylength.com | Ethics: http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf | See also https://reddit.com/r/crypto"
+2019-07-08 16:22:29	↪ 	Topic set by eightyeight (~eightyeig@oalug/member/eightyeight) on Wed, 08 Aug 2018 23:35:07
+2019-07-08 16:22:30	↪ 	Channel ##crypto: 562 nicks (1 op, 0 voices, 561 normals)
+2019-07-08 16:22:30	↪ 	Channel created on Sun, 26 Nov 2006 14:42:42
+2019-07-08 16:23:45	↪ 	irc: disconnected from server
